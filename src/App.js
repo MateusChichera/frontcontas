@@ -1,7 +1,6 @@
 import './App.css';
 import { Routes, Route, Link, Navigate, useNavigate, useLocation } from 'react-router-dom';
 import React, { useState } from 'react';
-import api from './services/api';
 import Titulos from './Components/Titulos';
 import Login from './Components/Login';
 
@@ -13,13 +12,13 @@ function App() {
     const location = useLocation();
 
   
-    // Função para logout
+   
     const handleLogout = () => {
         localStorage.removeItem('token');
         navigate('/login');
     };
 
-    // Componente de proteção de rota
+   
     const RequireAuth = ({ children }) => {
         const token = localStorage.getItem('token');
         if (!token) {
@@ -41,7 +40,7 @@ function App() {
           )}
 
           <div className="app-layout">
-              {/* Renderiza a sidebar somente se não estivermos na tela de login */}
+             
               {location.pathname !== '/login' && (
                 <aside className={`sidebar ${sidebarOpen ? '' : 'collapsed'}`}> 
                   <div className="logo-container">
@@ -51,7 +50,7 @@ function App() {
                       <Link to="/" className="nav-link"><i className="fas fa-home"></i> <span>Home</span></Link>
                       <Link to="/titulos" className="nav-link"><i className="fas fa-file-invoice"></i> <span>Títulos</span></Link>
                   </nav>
-                  {/* Rodapé da sidebar com botão de logout */}
+                 
                   <div className="sidebar-footer" style={{ marginTop: 'auto', padding: '1rem' }}>
                     <button onClick={handleLogout} className="nav-link" style={{ background: 'none', border: 'none', cursor: 'pointer', width: '100%', textAlign: 'left' }}>
                         <i className="fas fa-sign-out-alt"></i> <span>Sair</span>
@@ -63,8 +62,8 @@ function App() {
             <main
               className="main-content"
               style={{
-                marginLeft: sidebarOpen ? '220px' : '0',
-                width: sidebarOpen ? 'calc(100% - 220px)' : '100%',
+                marginLeft: location.pathname !== '/login' && sidebarOpen ? '220px' : '0',
+                width: location.pathname !== '/login' && sidebarOpen ? 'calc(100% - 220px)' : '100%',
               }}
              >
                 <Routes>
