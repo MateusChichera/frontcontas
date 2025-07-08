@@ -15,6 +15,7 @@ function App() {
    
     const handleLogout = () => {
         localStorage.removeItem('token');
+        localStorage.removeItem('titulos_dataInicial');
         navigate('/login');
     };
 

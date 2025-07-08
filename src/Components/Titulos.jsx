@@ -37,8 +37,13 @@ const Titulos = () => {
    
     const [titulos, setTitulos] = useState([]);
    
-    const [dataInicial, setDataInicial] = useState(formatDateForInput(today));
-    const [dataFinal, setDataFinal] = useState(formatDateForInput(thirtyDaysLater));
+   
+    const [dataInicial, setDataInicial] = useState(() => {
+        return localStorage.getItem('titulos_dataInicial') || formatDateForInput(today);
+    });
+    const [dataFinal, setDataFinal] = useState(() => {
+        return localStorage.getItem('titulos_dataFinal') || formatDateForInput(thirtyDaysLater);
+    });
     const [loading, setLoading] = useState(false); 
     const [searchTerm, setSearchTerm] = useState(''); 
 
@@ -164,7 +169,10 @@ const Titulos = () => {
                         type="date"
                         id="dataInicial"
                         value={dataInicial}
-                        onChange={(e) => setDataInicial(e.target.value)}
+                        onChange={(e) => {
+                            setDataInicial(e.target.value);
+                            localStorage.setItem('titulos_dataInicial', e.target.value);
+                        }}
                         className="date-input"
                     />
                 </div>
@@ -174,7 +182,10 @@ const Titulos = () => {
                         type="date"
                         id="dataFinal"
                         value={dataFinal}
-                        onChange={(e) => setDataFinal(e.target.value)}
+                        onChange={(e) => {
+                            setDataFinal(e.target.value);
+                            localStorage.setItem('titulos_dataFinal', e.target.value);
+                        }}
                         className="date-input"
                     />
                 </div>
