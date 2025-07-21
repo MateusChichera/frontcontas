@@ -4,8 +4,8 @@ import api from '../services/api';
 import '../css/Login.css';
 
 const Login = () => {
-  const [cnpj, setCnpj] = useState('');
-  const [nome, setNome] = useState('');
+  const [login, setLogin] = useState('');
+  const [senha, setSenha] = useState('');
   const [loading, setLoading] = useState(false);
   const [erro, setErro] = useState('');
 
@@ -17,11 +17,15 @@ const Login = () => {
     setLoading(true);
     setErro('');
     try {
-      const resposta = await api.post('/token', { cnpj, nome });
+      const resposta = await api.post('/token', { login, senha });
       if (resposta.status === 200) {
         const token = resposta.data.Token;
+        const expiration = resposta.data.Expiration;
         if (token) {
           localStorage.setItem('token', token);
+          if (expiration) {
+            localStorage.setItem('expiration', expiration);
+          }
           navigate('/');
         } else {
           setErro('Token inválido recebido.');
@@ -30,7 +34,7 @@ const Login = () => {
         setErro('Erro ao conectar. Código: ' + resposta.status);
       }
     } catch (err) {
-      const msg = err.response?.data?.message || 'Falha no login. Verifique os dados e tente novamente.';
+      const msg = err.response?.data?.message || 'Falha no login. Verifique o usuário e senha e tente novamente.';
       setErro(msg);
     }
     setLoading(false);
@@ -43,20 +47,20 @@ const Login = () => {
         <h2>Faça seu login</h2>
         <form onSubmit={handleLogin} style={{ width: '100%' }}>
           <div className="login-field">
-            <label>CNPJ</label>
+            <label>Login</label>
             <input
               type="text"
-              value={cnpj}
-              onChange={e => setCnpj(e.target.value)}
+              value={login}
+              onChange={e => setLogin(e.target.value)}
               required
             />
           </div>
           <div className="login-field">
-            <label>Nome</label>
+            <label>Senha</label>
             <input
-              type="text"
-              value={nome}
-              onChange={e => setNome(e.target.value)}
+              type="password"
+              value={senha}
+              onChange={e => setSenha(e.target.value)}
               required
             />
           </div>

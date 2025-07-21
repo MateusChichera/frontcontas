@@ -33,7 +33,7 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
             console.log(`Buscando vendas para API com DataInicial=${apiDataInicial} e DataFinal=${apiDataFinal}`);
 
             const res = await api.get(
-                `/Vendas?DataInicial=${encodeURIComponent(apiDataInicial)}&DataFinal=${encodeURIComponent(apiDataFinal)}`
+                `/movimento/vendas?datainicial=${encodeURIComponent(apiDataInicial)}&datafinal=${encodeURIComponent(apiDataFinal)}`
             );
 
            

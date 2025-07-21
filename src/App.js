@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, Link, Navigate, useNavigate, useLocation } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Titulos from './Components/Titulos';
 import Login from './Components/Login';
 
@@ -10,6 +10,29 @@ function App() {
     const [sidebarOpen, setSidebarOpen] = useState(true);
     const navigate = useNavigate();
     const location = useLocation();
+
+    useEffect(() => {
+      const checkExpiration = () => {
+        const expiration = localStorage.getItem('expiration');
+        if (expiration) {
+          // Formato: "21/07/2025 14:38:56.38"
+          const [datePart, timePart] = expiration.split(' ');
+          const [day, month, year] = datePart.split('/');
+          const [hour, minute, second] = timePart.split(':');
+          const ms = timePart.split('.')[1] || '0';
+          const expDate = new Date(year, month - 1, day, hour, minute, second, ms);
+          if (Date.now() > expDate.getTime()) {
+            alert('Sua sessão expirou! Faça login novamente.');
+            localStorage.removeItem('token');
+            localStorage.removeItem('expiration');
+            navigate('/login');
+          }
+        }
+      };
+      checkExpiration();
+      const interval = setInterval(checkExpiration, 30000); // checa a cada 30s
+      return () => clearInterval(interval);
+    }, [navigate]);
 
   
    
@@ -22,7 +45,21 @@ function App() {
    
     const RequireAuth = ({ children }) => {
         const token = localStorage.getItem('token');
-        if (!token) {
+        const expiration = localStorage.getItem('expiration');
+        let expired = false;
+        if (expiration) {
+            const [datePart, timePart] = expiration.split(' ');
+            const [day, month, year] = datePart.split('/');
+            const [hour, minute, second] = timePart.split(':');
+            const ms = timePart.split('.')[1] || '0';
+            const expDate = new Date(year, month - 1, day, hour, minute, second, ms);
+            if (Date.now() > expDate.getTime()) {
+                expired = true;
+            }
+        }
+        if (!token || expired) {
+            localStorage.removeItem('token');
+            localStorage.removeItem('expiration');
             return <Navigate to="/login" replace />;
         }
         return children;

@@ -46,6 +46,7 @@ const Titulos = () => {
     });
     const [loading, setLoading] = useState(false); 
     const [searchTerm, setSearchTerm] = useState(''); 
+    // Remover o state de vencimento
 
     const filteredTitulos = useMemo(() => {
         if (!searchTerm) return titulos;
@@ -141,7 +142,7 @@ const Titulos = () => {
 
         try {
             const response = await api.get(
-                `/Titulos?DataInicial=${apiDataInicial}&DataFinal=${apiDataFinal}&Vencimento=0`
+                `/movimento/titulos?datainicial=${apiDataInicial}&datafinal=${apiDataFinal}&vencimento=0`
             );
             setTitulos(response.data.Titulos ?? []);
             console.log('Dados recebidos da API:', response.data);
@@ -189,6 +190,11 @@ const Titulos = () => {
                         className="date-input"
                     />
                 </div>
+                <div className="input-group">
+                    <label>Tipo de Busca:</label>
+                    <input type="radio" checked disabled style={{marginRight: '5px'}} /> Emissão
+                </div>
+                {/* Remover o bloco dos botões radio de tipo de data */}
                 <button onClick={handleSearch} className="search-button" disabled={loading}>
                     {loading ? 'Buscando...' : 'Buscar Títulos'}
                 </button>
