@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
+import logger from '../services/directLogger';
 import '../css/Login.css';
 
 const Login = () => {
@@ -23,19 +24,24 @@ const Login = () => {
         const expiration = resposta.data.Expiration;
         if (token) {
           localStorage.setItem('token', token);
+          localStorage.setItem('usuario', login);
           if (expiration) {
             localStorage.setItem('expiration', expiration);
           }
+          logger.logLogin(login, true);
           navigate('/');
         } else {
           setErro('Token inválido recebido.');
+          logger.logLogin(login, false);
         }
       } else {
         setErro('Erro ao conectar. Código: ' + resposta.status);
+        logger.logLogin(login, false);
       }
     } catch (err) {
       const msg = err.response?.data?.message || 'Falha no login. Verifique o usuário e senha e tente novamente.';
       setErro(msg);
+      logger.logLogin(login, false);
     }
     setLoading(false);
   };

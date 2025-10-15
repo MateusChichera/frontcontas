@@ -3,6 +3,8 @@ import { Routes, Route, Link, Navigate, useNavigate, useLocation } from 'react-r
 import React, { useState, useEffect } from 'react';
 import Titulos from './Components/Titulos';
 import Login from './Components/Login';
+import LogViewer from './Components/LogViewer';
+import logger from './services/directLogger';
 
 const logoPath = process.env.PUBLIC_URL + '/logo/logo1.png';
 
@@ -37,7 +39,14 @@ function App() {
   
    
     const handleLogout = () => {
+        // Log do logout
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        logger.logLogout(usuario);
+        
+        // Limpar apenas dados de sessão, preservar logs de auditoria
         localStorage.removeItem('token');
+        localStorage.removeItem('usuario');
+        localStorage.removeItem('expiration');
         localStorage.removeItem('titulos_dataInicial');
         navigate('/login');
     };
@@ -119,9 +128,12 @@ function App() {
                 width: sidebarOpen ? 'calc(100% - 220px)' : '100%',
               }}
             >
-              © Infomaster 2025
+              © InfoMaster 2025
             </footer>
           )}
+          
+          {/* LogViewer só visível quando não estiver na tela de login */}
+          {location.pathname !== '/login' && <LogViewer />}
         </div>
     );
 }

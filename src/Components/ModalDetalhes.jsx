@@ -1,9 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
 import api from '../services/api';
+import logger from '../services/directLogger';
 import '../css/Modal.css'; 
 
 
 const formatDateForApi = (dateString) => {
+    if (!dateString) return '';
+   
+    const [year, month, day] = dateString.split('-');
+    return `${day}/${month}/${year}`;
+};
+
+const formatDateForDisplay = (dateString) => {
     if (!dateString) return '';
    
     const [year, month, day] = dateString.split('-');
@@ -64,7 +72,11 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
         const filtered = allVendasForClient.filter(venda => {
             if (filterType === 'data') {
                 
-                const vendaDate = new Date(venda.Data).toLocaleDateString('pt-BR');
+                const vendaDate = new Date(venda.Data).toLocaleDateString('pt-BR', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric'
+                });
                 return vendaDate.includes(lowerCaseSearchTerm);
             } else if (filterType === 'item') {
                
@@ -83,6 +95,11 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
         setFilterType('data'); 
         buscarDetalhes();
         setIsOpen(true);
+        
+        // Log da abertura do modal de detalhes
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        const periodo = `${formatDateForDisplay(dataInicial)} a ${formatDateForDisplay(dataFinal)}`;
+        logger.logDetalhes(usuario, cliente, periodo);
     };
 
    
@@ -91,9 +108,14 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
     const handlePrint = () => {
         if (!modalRef.current) return;
 
+        // Log da impressão
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        const periodo = `${formatDateForDisplay(dataInicial)} a ${formatDateForDisplay(dataFinal)}`;
+        logger.logImpressao(usuario, 'Detalhes Cliente', `Cliente: ${cliente} - Período: ${periodo}`);
+
         const contentHtml = modalRef.current.innerHTML;
         const printWindow = window.open('', '', 'width=900,height=650');
-        printWindow.document.write(`<!DOCTYPE html><html><head><title>Detalhes – ${cliente}</title><style>
+        printWindow.document.write(`<!DOCTYPE html><html><head><title>${cliente} | Período: ${formatDateForDisplay(dataInicial)} a ${formatDateForDisplay(dataFinal)}</title><style>
             body { font-family: Arial, sans-serif; margin: 20px; }
             table { width: 100%; border-collapse: collapse; }
             th, td { border: 1px solid #000; padding: 4px; font-size: 12px; }
@@ -107,7 +129,7 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
         </style></head><body>`);
         printWindow.document.write(contentHtml);
         
-        printWindow.document.write('<div style="position:fixed;bottom:10px;right:20px;font-size:12px;">Infomaster</div>');
+        printWindow.document.write('<div style="position:fixed;bottom:10px;right:20px;font-size:12px;">InfoMaster</div>');
         printWindow.document.write('</body></html>');
         printWindow.document.close();
 
@@ -129,7 +151,7 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
                 <div className="modal-overlay" onClick={handleClose}>
                     <div className="modal-content" ref={modalRef} onClick={(e) => e.stopPropagation()}>
                         <div className="modal-header">
-                            <h2>Detalhes – {cliente}</h2>
+                            <h2>Detalhes – {cliente} | Período: {formatDateForDisplay(dataInicial)} a {formatDateForDisplay(dataFinal)}</h2>
                             <div style={{display:'flex',gap:'10px'}}>
                                 <button className="print-button-modal hide-print" onClick={handlePrint}>🖨️</button>
                                 <button className="close-button hide-print" onClick={handleClose}>×</button>
@@ -163,7 +185,11 @@ const ModalDetalhes = ({ cliente, dataInicial, dataFinal }) => {
                                 <div key={`${venda.Venda}-${venda.Terminal}`} className="venda-card">
                                     <h3>
                                         Venda #{venda.Venda} | Terminal {venda.Terminal} | Data{' '}
-                                        {new Date(venda.Data).toLocaleDateString('pt-BR')}
+                                        {new Date(venda.Data).toLocaleDateString('pt-BR', {
+                                            day: '2-digit',
+                                            month: '2-digit',
+                                            year: 'numeric'
+                                        })}
                                     </h3>
 
                                     <table className="items-table">

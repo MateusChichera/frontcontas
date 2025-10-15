@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import ModalDetalhes from './ModalDetalhes';
 import api from '../services/api';
+import logger from '../services/directLogger';
 import '../css/Titulos.css'; 
 import '../css/Modal.css';
 
@@ -73,6 +74,11 @@ const Titulos = () => {
 
     
     const handleExportExcel = () => {
+        // Log da exportação
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        const periodo = `${dataInicial} a ${dataFinal}`;
+        logger.logImpressao(usuario, 'Exportação CSV Títulos', `Período: ${periodo}`);
+
         const header = ['Cliente', 'CPF', 'Cod. Atividade', 'Títulos', 'Valor Total'];
         const rows = filteredTitulos.map((t) => [
             t.Cliente,
@@ -88,19 +94,24 @@ const Titulos = () => {
 
         const blob = new Blob(["\uFEFF" + csvContent], { type: 'text/csv;charset=utf-8;' });
         const downloadLink = document.createElement('a');
-        const periodo = `${formatDateDisplay(dataInicial)}_a_${formatDateDisplay(dataFinal)}`;
+        const periodoArquivo = `${formatDateDisplay(dataInicial)}_a_${formatDateDisplay(dataFinal)}`;
         downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = `Titulos_${periodo}.csv`;
+        downloadLink.download = `Titulos_${periodoArquivo}.csv`;
         downloadLink.click();
     };
 
    
     const handlePrint = () => {
+        // Log da impressão
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        const periodo = `${dataInicial} a ${dataFinal}`;
+        logger.logImpressao(usuario, 'Relatório Títulos', `Período: ${periodo}`);
+
         const originalTable = document.querySelector('.titulos-table').cloneNode(true);
         originalTable.querySelectorAll('.hide-print').forEach(el => el.remove());
         const tableHtml = originalTable.outerHTML;
         const headerTitle = `Fechamento Convênio período ${formatDateDisplay(dataInicial)} a ${formatDateDisplay(dataFinal)}`;
-        const footerText = `${new Date().toLocaleString('pt-BR')} - Infomaster`;
+        const footerText = `${new Date().toLocaleString('pt-BR')} - InfoMaster`;
 
         const printWindow = window.open('', '', 'width=800,height=600');
 
@@ -140,6 +151,11 @@ const Titulos = () => {
         const apiDataInicial = formatDateForApi(dataInicial);
         const apiDataFinal = formatDateForApi(dataFinal);
 
+        // Log da busca de relatório
+        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
+        const periodo = `${dataInicial} a ${dataFinal}`;
+        logger.logRelatorio(usuario, 'Títulos', periodo);
+
         try {
             const response = await api.get(
                 `/movimento/titulos?datainicial=${apiDataInicial}&datafinal=${apiDataFinal}&vencimento=0`
@@ -149,6 +165,7 @@ const Titulos = () => {
         } catch (error) {
             console.error('Erro ao buscar Titulos:', error);
             setTitulos([]);
+            logger.logErro('Busca de Títulos', error.message);
         } finally {
             setLoading(false); 
         }
@@ -157,7 +174,7 @@ const Titulos = () => {
    
     useEffect(() => {
         handleSearch();
-    }, []);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
         <div className="titulos-container">

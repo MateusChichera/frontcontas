@@ -1,0 +1,22 @@
+[14/10/2025, 16:03:55] TESTE - Teste do sistema de logs - Usuário: admin
+[14/10/2025, 16:10:27] TESTE_AUDITORIA - Teste do sistema de auditoria - Usuário: admin
+[14/10/2025, 16:50:03] TESTE_DIRETO - Teste direto no servidor - Usuário: admin
+[14/10/2025, 16:50:54] TESTE_HTTP - Teste HTTP direto - Usuário: admin
+[14/10/2025, 16:51:12] TESTE_FINAL - Sistema de auditoria funcionando - Usuário: admin
+[14/10/2025, 17:00:00] TESTE_DIRETO - Teste direto no proxy - Usuário: admin
+[14/10/2025, 17:03:00] TESTE_LOCAL - Teste local - Usuário: admin
+[14/01/2025, 10:30:15] TESTE - Teste de log - Usuário: Teste
+[14/10/2025, 17:24:03] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[14/10/2025, 17:24:22] LOGOUT - Usuário: teste
+[14/10/2025, 17:24:25] LOGIN - Sucesso - Usuário: teste
+[14/10/2025, 17:24:26] RELATÓRIO - Tipo: Títulos - Período: 2025-10-14 a 2025-11-13 - Usuário: teste
+[14/10/2025, 17:24:27] RELATÓRIO - Tipo: Títulos - Período: 2025-10-14 a 2025-11-13 - Usuário: teste
+[14/10/2025, 17:24:29] DETALHES - Cliente: TESTE INFOMASTER - Período: 14/10/2025 a 13/11/2025 - Usuário: teste
+[14/10/2025, 17:24:31] IMPRESSÃO - Tipo: Detalhes Cliente - Cliente: TESTE INFOMASTER - Período: 14/10/2025 a 13/11/2025 - Usuário: teste
+[14/10/2025, 17:30:20] IMPRESSÃO - Tipo: Exportação CSV Títulos - Período: 2025-10-14 a 2025-11-13 - Usuário: teste
+[14/10/2025, 17:34:21] LOGOUT - Usuário: teste
+[14/10/2025, 17:34:26] LOGIN - Falha - Usuário: teste
+[14/10/2025, 17:35:25] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[14/10/2025, 17:37:04] LOGIN - Falha - Usuário: teste
+[14/10/2025, 17:37:14] LOGIN - Sucesso - Usuário: teste
+[14/10/2025, 17:44:54] RELATÓRIO - Tipo: Títulos - Período: 2025-10-14 a 2025-11-13 - Usuário: Administrador PharmaW

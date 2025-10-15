@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Logs</title>
+</head>
+<body>
+    <h1>Teste de Logs de Auditoria</h1>
+    <button onclick="testarLogs()">Testar Logs</button>
+    <button onclick="verLogs()">Ver Logs</button>
+    <button onclick="limparLogs()">Limpar Logs</button>
+    <div id="resultado"></div>
+
+    <script>
+        // Simular o directLogger
+        class TestLogger {
+            formatTimestamp() {
+                return new Date().toLocaleString('pt-BR', {
+                    timeZone: 'America/Sao_Paulo',
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                });
+            }
+
+            log(action, details = '', usuario = '') {
+                const timestamp = this.formatTimestamp();
+                const logEntry = `[${timestamp}] ${action}${details ? ' - ' + details : ''}${usuario ? ' - Usuário: ' + usuario : ''}\n`;
+                
+                const logs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
+                logs.push({
+                    timestamp,
+                    action,
+                    details,
+                    usuario,
+                    logEntry
+                });
+                localStorage.setItem('audit_logs', JSON.stringify(logs));
+                
+                console.log('Log salvo para usuário:', usuario, 'Ação:', action);
+                console.log('Total de logs no localStorage:', logs.length);
+            }
+        }
+
+        const logger = new TestLogger();
+
+        function testarLogs() {
+            // Simular diferentes usuários fazendo login
+            logger.log('LOGIN', 'Sucesso', 'Usuario1');
+            logger.log('LOGIN', 'Sucesso', 'Usuario2');
+            logger.log('LOGIN', 'Falha', 'Usuario3');
+            logger.log('LOGOUT', '', 'Usuario1');
+            logger.log('RELATÓRIO', 'Títulos - Período: 01/01/2025 a 31/01/2025', 'Usuario2');
+            
+            document.getElementById('resultado').innerHTML = '<p style="color: green;">Logs de teste criados!</p>';
+        }
+
+        function verLogs() {
+            const logs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
+            const usuarios = [...new Set(logs.map(log => log.usuario))];
+            
+            let html = `<h3>Logs Armazenados (${logs.length} total):</h3>`;
+            html += `<p><strong>Usuários únicos:</strong> ${usuarios.join(', ')}</p>`;
+            html += '<ul>';
+            logs.forEach((log, index) => {
+                html += `<li>[${log.timestamp}] ${log.action} - ${log.details} (Usuário: ${log.usuario})</li>`;
+            });
+            html += '</ul>';
+            
+            document.getElementById('resultado').innerHTML = html;
+        }
+
+        function limparLogs() {
+            localStorage.removeItem('audit_logs');
+            document.getElementById('resultado').innerHTML = '<p style="color: red;">Logs limpos!</p>';
+        }
+    </script>
+</body>
+</html>
