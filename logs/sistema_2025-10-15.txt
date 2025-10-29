@@ -1,0 +1,2 @@
+[15/10/2025, 11:06:00] LOGIN - Falha - Usuário: Administrador PharmaW
+[15/10/2025, 16:12:25] LOGIN - Falha - Usuário: Administrador PharmaW

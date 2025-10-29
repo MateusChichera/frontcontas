@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route, Link, Navigate, useNavigate, useLocation } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import Titulos from './Components/Titulos';
+import Clientes from './Components/Clientes';
 import Login from './Components/Login';
 import LogViewer from './Components/LogViewer';
 import logger from './services/directLogger';
@@ -96,6 +97,7 @@ function App() {
                   <nav className="sidebar-nav">
                       <Link to="/" className="nav-link"><i className="fas fa-home"></i> <span>Home</span></Link>
                       <Link to="/titulos" className="nav-link"><i className="fas fa-file-invoice"></i> <span>Títulos</span></Link>
+                      <Link to="/clientes" className="nav-link"><i className="fas fa-users"></i> <span>Funcionários</span></Link>
                   </nav>
                  
                   <div className="sidebar-footer" style={{ marginTop: 'auto', padding: '1rem' }}>
@@ -117,6 +119,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/" element={<RequireAuth><div className="home-container"><h2 className="welcome-title">Bem-vindo!</h2></div></RequireAuth>} />
                     <Route path="/titulos" element={<RequireAuth><Titulos /></RequireAuth>} />
+                    <Route path="/clientes" element={<RequireAuth><Clientes /></RequireAuth>} />
                 </Routes>
             </main>
           </div>

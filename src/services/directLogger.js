@@ -1,27 +1,66 @@
 // Logger que grava no servidor via Node.js endpoint
 class DirectLogger {
     constructor() {
-        this.logEndpoint = 'http://localhost:3003/log-endpoint';
-        this.getLogsEndpoint = 'http://localhost:3003/get-logs';
+        // Usar endpoint do proxy Node.js (via /api)
+        const baseUrl = window.location.origin;
+        this.logEndpoint = `${baseUrl}/api/log-endpoint`;
+        this.getLogsEndpoint = `${baseUrl}/api/get-logs`;
     }
 
     async writeToServer(logEntry) {
         try {
+            console.log('Enviando log para:', this.logEndpoint);
             const response = await fetch(this.logEndpoint, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ log: logEntry })
+                body: JSON.stringify({ log: logEntry }),
+                mode: 'cors',
+                credentials: 'omit'
             });
 
-            if (response.ok) {
-                console.log('Log enviado para servidor:', logEntry.trim());
+            if (!response.ok) {
+                const errorText = await response.text();
+                console.error('Erro ao enviar log para servidor:', response.status, errorText);
+                
+                // Tentar salvar localmente em caso de erro (para não perder logs)
+                try {
+                    const failedLogs = JSON.parse(localStorage.getItem('failed_logs') || '[]');
+                    failedLogs.push({
+                        log: logEntry,
+                        timestamp: new Date().toISOString(),
+                        error: `HTTP ${response.status}: ${errorText}`
+                    });
+                    // Manter apenas últimos 100 falhas
+                    if (failedLogs.length > 100) {
+                        failedLogs.splice(0, failedLogs.length - 100);
+                    }
+                    localStorage.setItem('failed_logs', JSON.stringify(failedLogs));
+                } catch (e) {
+                    console.error('Erro ao salvar log local:', e);
+                }
             } else {
-                console.error('Erro ao enviar log para servidor:', response.status);
+                console.log('Log salvo com sucesso no servidor');
             }
         } catch (error) {
-            console.error('Erro de conexão com servidor:', error);
+            console.error('Erro de conexão ao enviar log:', error);
+            // Tentar salvar localmente em caso de erro
+            try {
+                const failedLogs = JSON.parse(localStorage.getItem('failed_logs') || '[]');
+                failedLogs.push({
+                    log: logEntry,
+                    timestamp: new Date().toISOString(),
+                    error: error.message || 'Erro desconhecido'
+                });
+                if (failedLogs.length > 100) {
+                    failedLogs.splice(0, failedLogs.length - 100);
+                }
+                localStorage.setItem('failed_logs', JSON.stringify(failedLogs));
+                console.log('Log salvo localmente devido a erro');
+            } catch (e) {
+                console.error('Erro ao salvar log local:', e);
+            }
         }
     }
 
@@ -38,24 +77,16 @@ class DirectLogger {
     }
 
     async log(action, details = '', usuario = '') {
-        const timestamp = this.formatTimestamp();
-        const logEntry = `[${timestamp}] ${action}${details ? ' - ' + details : ''}${usuario ? ' - Usuário: ' + usuario : ''}`;
-        
-        // Salvar no servidor
-        await this.writeToServer(logEntry);
-        
-        // Também salvar no localStorage como backup local
-        const logs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
-        logs.push({
-            timestamp,
-            action,
-            details,
-            usuario,
-            logEntry
-        });
-        localStorage.setItem('audit_logs', JSON.stringify(logs));
-        
-        console.log('Log salvo para usuário:', usuario, 'Ação:', action);
+        try {
+            const timestamp = this.formatTimestamp();
+            const logEntry = `[${timestamp}] ${action}${details ? ' - ' + details : ''}${usuario ? ' - Usuário: ' + usuario : ''}`;
+            
+            // Enviar apenas para o servidor PHP
+            await this.writeToServer(logEntry);
+            console.log('Log enviado com sucesso:', action);
+        } catch (error) {
+            console.error('Erro ao criar log:', error);
+        }
     }
 
     // Métodos específicos para diferentes ações
@@ -83,18 +114,17 @@ class DirectLogger {
         this.log('ERRO', `${acao} - ${erro}`);
     }
 
-    // Método para exportar todos os logs
+    // Método para exportar logs do servidor PHP
     async exportLogs() {
         try {
             const today = new Date().toISOString().split('T')[0];
-            const response = await fetch(`http://localhost:3003/get-logs?date=${today}`);
+            const response = await fetch(`${this.getLogsEndpoint}?date=${today}`);
             
             if (response.ok) {
                 const data = await response.json();
                 const logs = data.logs || [];
                 const content = logs.map(log => log.logEntry).join('\n');
                 
-                // Criar download
                 const blob = new Blob([content], { type: 'text/plain' });
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement('a');
@@ -104,41 +134,10 @@ class DirectLogger {
                 link.click();
                 document.body.removeChild(link);
                 URL.revokeObjectURL(url);
-            } else {
-                throw new Error('Erro ao carregar logs do servidor');
             }
         } catch (error) {
             console.error('Erro ao exportar logs:', error);
-            // Fallback para localStorage
-            const logs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
-            const content = logs.map(log => log.logEntry).join('\n');
-            const blob = new Blob([content], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `sistema_${new Date().toISOString().split('T')[0]}.txt`;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            URL.revokeObjectURL(url);
         }
-    }
-
-    // Método para limpar logs de auditoria (apenas para admin)
-    clearAuditLogs() {
-        localStorage.removeItem('audit_logs');
-        console.log('Logs de auditoria limpos');
-    }
-
-    // Método para obter informações sobre os logs
-    getLogInfo() {
-        const logs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
-        const usuarios = [...new Set(logs.map(log => log.usuario))];
-        return {
-            totalLogs: logs.length,
-            usuarios: usuarios,
-            ultimoLog: logs[logs.length - 1]?.timestamp || 'Nenhum'
-        };
     }
 }
 

@@ -17,35 +17,51 @@ const LogViewer = () => {
     };
 
     useEffect(() => {
-        // Sempre carregar logs, independente do usuário
-        loadLogs();
-    }, []);
+        // Carregar logs apenas se for administrador
+        if (isAdmin()) {
+            loadLogs();
+        }
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(() => {
         filterLogs();
     }, [logs, searchTerm, dateFilter, actionFilter]); // eslint-disable-line react-hooks/exhaustive-deps
 
     const loadLogs = async () => {
+        // Carregar logs do proxy Node.js - tentar última semana se hoje não tiver logs
         try {
-            // Primeiro tentar carregar do servidor Node.js
-            const today = new Date().toISOString().split('T')[0];
-            const response = await fetch(`http://localhost:3003/get-logs?date=${today}`);
+            const baseUrl = window.location.origin;
+            let allLogs = [];
             
-            if (response.ok) {
-                const data = await response.json();
-                const serverLogs = data.logs || [];
-                console.log('Logs carregados do servidor:', serverLogs.length, 'logs');
-                console.log('Usuários únicos:', [...new Set(serverLogs.map(log => log.usuario))]);
-                setLogs(serverLogs);
-            } else {
-                throw new Error('Erro ao carregar logs do servidor');
+            // Tentar carregar dos últimos 7 dias
+            for (let i = 0; i < 7; i++) {
+                const date = new Date();
+                date.setDate(date.getDate() - i);
+                const dateStr = date.toISOString().split('T')[0];
+                
+                try {
+                    const response = await fetch(`${baseUrl}/api/get-logs?date=${dateStr}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.logs && data.logs.length > 0) {
+                            allLogs.push(...data.logs);
+                        }
+                    }
+                } catch (e) {
+                    // Continuar tentando outras datas
+                }
             }
+            
+            // Remover duplicatas e ordenar
+            const uniqueLogs = Array.from(
+                new Map(allLogs.map(log => [log.logEntry, log])).values()
+            );
+            
+            setLogs(uniqueLogs);
+            console.log('Logs carregados:', uniqueLogs.length);
         } catch (error) {
-            console.error('Erro ao carregar logs do servidor, usando localStorage:', error);
-            // Fallback para localStorage
-            const storedLogs = JSON.parse(localStorage.getItem('audit_logs') || '[]');
-            console.log('Logs carregados do localStorage:', storedLogs.length, 'logs');
-            setLogs(storedLogs.reverse());
+            console.error('Erro ao carregar logs:', error);
+            setLogs([]);
         }
     };
 

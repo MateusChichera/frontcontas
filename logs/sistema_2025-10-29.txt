@@ -1,0 +1,10 @@
+[29/10/2025, 10:38:43] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[29/10/2025, 10:38:43] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[29/10/2025, 10:38:59] RELATÓRIO - Tipo: Títulos - Período: 2025-10-29 a 2025-11-28 - Usuário: Administrador PharmaW
+[29/10/2025, 10:38:59] RELATÓRIO - Tipo: Títulos - Período: 2025-10-29 a 2025-11-28 - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:16] RELATÓRIO - Tipo: Títulos - Período: 2025-10-29 a 2025-11-28 - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:17] RELATÓRIO - Tipo: Títulos - Período: 2025-10-29 a 2025-11-28 - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:23] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:23] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:32] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 105869, Status alterado para: Bloqueado - Usuário: Administrador PharmaW
+[29/10/2025, 10:43:49] RELATÓRIO - Tipo: Desbloquear Cliente - Período: Código: 105869, Status alterado para: Ativo - Usuário: Administrador PharmaW
