@@ -1,0 +1,2 @@
+[23/01/2026, 10:18:41] LOGIN - Falha - Usuário: FRANCISLAINE
+[23/01/2026, 16:16:22] LOGIN - Sucesso - Usuário: FRANCISLAINE

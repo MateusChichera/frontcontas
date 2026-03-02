@@ -1,0 +1,62 @@
+[01/12/2025, 09:19:55] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[01/12/2025, 09:19:59] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[01/12/2025, 09:19:59] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: d - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: da - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dan - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dani - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: danie - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: daniel - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: daniell - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: danielli - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:07] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:26] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:28] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:33] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:45] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:45] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: d - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: da - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dan - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dani - Usuário: FRANCISLAINE
+[01/12/2025, 09:20:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: danie - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:21] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:23] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:23] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:25] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: d - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:25] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: da - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:25] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dan - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:25] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: dani - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:26] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: danie - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: daniel - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: daniell - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: danielli - Usuário: FRANCISLAINE
+[01/12/2025, 09:21:31] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106357, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[01/12/2025, 09:27:19] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[01/12/2025, 09:27:21] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-28 - Usuário: MARI PREVIATO
+[01/12/2025, 09:27:35] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-01 - Usuário: MARI PREVIATO
+[01/12/2025, 10:11:54] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[01/12/2025, 10:11:56] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:03] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:03] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: e - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: el - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: eli - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elis - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elis - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elis r - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elis re - Usuário: FRANCISLAINE
+[01/12/2025, 10:12:12] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106321, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[01/12/2025, 12:57:40] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[01/12/2025, 12:57:42] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-01 - Usuário: MARI PREVIATO
+[01/12/2025, 12:57:49] DETALHES - Cliente: WANESSA APARECIDA ZAMBERLAN - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 12:57:56] DETALHES - Cliente: WANESSA APARECIDA ZAMBERLAN - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 12:58:39] DETALHES - Cliente: DOUGLAS BERALDO PONTES - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 12:58:43] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 12:58:47] DETALHES - Cliente: MICHELE MIRIAM REZENDE - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 12:59:00] DETALHES - Cliente: ELIANE GISELLE FERNANDES - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 15:28:35] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[01/12/2025, 15:28:38] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-01 - Usuário: MARI PREVIATO
+[01/12/2025, 15:28:47] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 18/11/2025 a 01/12/2025 - Usuário: MARI PREVIATO
+[01/12/2025, 16:32:24] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[01/12/2025, 16:32:41] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-01 - Usuário: MARI PREVIATO

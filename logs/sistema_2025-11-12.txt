@@ -1,0 +1,39 @@
+[12/11/2025, 10:01:25] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[12/11/2025, 10:01:26] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[12/11/2025, 10:01:26] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[12/11/2025, 10:01:29] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-12-12 - Usuário: FRANCISLAINE
+[12/11/2025, 10:01:47] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[12/11/2025, 10:01:55] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 10/11/2025 a 18/11/2025 - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:06] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 10/11/2025 a 18/11/2025 - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:16] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:16] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: M - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MA - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MAR - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARI - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA L - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA LU - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA LUI - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA LUIZ - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA LUIZA - Usuário: FRANCISLAINE
+[12/11/2025, 10:02:25] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106455, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[12/11/2025, 10:19:21] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/11/2025, 10:19:23] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 10:19:25] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 10:19:27] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 10:19:34] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 10:19:54] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 10/11/2025 a 12/12/2025 - Usuário: MARI PREVIATO
+[12/11/2025, 11:49:02] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/11/2025, 11:49:04] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 11:49:09] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 10/11/2025 a 12/12/2025 - Usuário: MARI PREVIATO
+[12/11/2025, 11:49:23] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 14:18:05] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/11/2025, 14:18:07] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/11/2025, 14:18:13] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 10/11/2025 a 12/12/2025 - Usuário: MARI PREVIATO
+[12/11/2025, 16:38:15] LOGIN - Sucesso - Usuário: UNIMED
+[12/11/2025, 16:38:17] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-10-31 - Usuário: UNIMED
+[12/11/2025, 16:38:31] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[12/11/2025, 16:38:34] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[12/11/2025, 16:38:34] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED

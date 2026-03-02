@@ -1,0 +1,45 @@
+[02/03/2026, 09:04:49] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/03/2026, 09:04:51] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:34] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-03-02 - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:45] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:45] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: M - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MA - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:49] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MAR - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARI - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA D - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA DI - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA DIL - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA DILM - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA DILMA - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:52] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:57] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106008, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[02/03/2026, 09:05:58] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106498, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[02/03/2026, 11:45:28] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/03/2026, 11:45:30] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-03-02 - Usuário: MARI PREVIATO
+[02/03/2026, 13:59:10] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/03/2026, 13:59:11] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-03-02 - Usuário: MARI PREVIATO
+[02/03/2026, 14:40:34] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[02/03/2026, 14:40:38] RELATÓRIO - Tipo: Títulos - Período: 2026-03-02 a 2026-04-01 - Usuário: Administrador PharmaW
+[02/03/2026, 14:40:46] RELATÓRIO - Tipo: Títulos - Período: 2026-02-02 a 2026-04-01 - Usuário: Administrador PharmaW
+[02/03/2026, 14:40:48] DETALHES - Cliente: LAIS FERNANDA DOMINGUES PORTO - Período: 02/02/2026 a 01/04/2026 - Usuário: Administrador PharmaW
+[02/03/2026, 14:40:50] DETALHES - Cliente: KATIA DIAS PORCINO - Período: 02/02/2026 a 01/04/2026 - Usuário: Administrador PharmaW
+[02/03/2026, 14:40:52] DETALHES - Cliente: JEANE NUNES DA SILVA - Período: 02/02/2026 a 01/04/2026 - Usuário: Administrador PharmaW
+[02/03/2026, 14:41:05] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[02/03/2026, 14:41:05] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:14] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:15] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:16] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 3 → 4 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:16] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 4 → 5 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:16] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 5 → 6 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:17] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 6 → 7 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:17] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 7 → 8 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:18] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 8 → 9 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:18] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 9 → 10 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 10 → 11 - Usuário: Administrador PharmaW
+[02/03/2026, 14:42:20] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 11 → 12 - Usuário: Administrador PharmaW
+[02/03/2026, 15:20:02] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[02/03/2026, 15:20:05] RELATÓRIO - Tipo: Títulos - Período: 2026-02-02 a 2026-04-01 - Usuário: Administrador PharmaW
+[02/03/2026, 15:21:11] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 02/02/2026 a 01/04/2026 - Usuário: Administrador PharmaW

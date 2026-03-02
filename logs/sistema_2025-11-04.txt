@@ -1,0 +1,55 @@
+[04/11/2025, 09:49:22] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:25] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:25] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:31] RELATÓRIO - Tipo: Títulos - Período: 2025-11-04 a 2025-12-04 - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:33] RELATÓRIO - Tipo: Títulos - Período: 2025-11-04 a 2025-12-04 - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:47] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-04 - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:49] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[04/11/2025, 09:49:49] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[04/11/2025, 09:54:31] LOGIN - Sucesso - Usuário: UNIMED
+[04/11/2025, 09:54:34] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[04/11/2025, 09:54:34] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[04/11/2025, 09:54:53] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[04/11/2025, 09:54:55] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[04/11/2025, 09:54:55] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[04/11/2025, 10:07:33] LOGIN - Sucesso - Usuário: UNIMED
+[04/11/2025, 10:07:38] RELATÓRIO - Tipo: Títulos - Período: 2025-11-04 a 2025-10-31 - Usuário: UNIMED
+[04/11/2025, 10:07:43] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[04/11/2025, 10:07:43] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[04/11/2025, 16:58:35] LOGIN - Falha - Usuário: UNIMED
+[04/11/2025, 16:58:39] LOGIN - Sucesso - Usuário: UNIMED
+[04/11/2025, 16:58:40] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[04/11/2025, 16:58:40] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[04/11/2025, 16:58:46] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: UNIMED
+[04/11/2025, 16:58:47] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: UNIMED
+[04/11/2025, 16:58:47] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 3 → 4 - Usuário: UNIMED
+[04/11/2025, 16:58:47] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 4 → 5 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 5 → 6 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 6 → 7 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 7 → 8 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 8 → 9 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 9 → 10 - Usuário: UNIMED
+[04/11/2025, 16:58:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 10 → 11 - Usuário: UNIMED
+[04/11/2025, 16:58:49] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 11 → 12 - Usuário: UNIMED
+[04/11/2025, 16:58:49] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 12 → 13 - Usuário: UNIMED
+[04/11/2025, 16:58:49] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 13 → 14 - Usuário: UNIMED
+[04/11/2025, 16:58:49] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 14 → 15 - Usuário: UNIMED
+[04/11/2025, 16:58:49] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 15 → 16 - Usuário: UNIMED
+[04/11/2025, 16:58:50] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 16 → 17 - Usuário: UNIMED
+[04/11/2025, 16:58:50] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 17 → 18 - Usuário: UNIMED
+[04/11/2025, 16:58:50] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 18 → 19 - Usuário: UNIMED
+[04/11/2025, 16:58:50] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 19 → 20 - Usuário: UNIMED
+[04/11/2025, 16:58:50] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 20 → 21 - Usuário: UNIMED
+[04/11/2025, 17:08:39] LOGIN - Sucesso - Usuário: UNIMED
+[04/11/2025, 17:08:42] RELATÓRIO - Tipo: Títulos - Período: 2025-11-04 a 2025-10-31 - Usuário: UNIMED
+[04/11/2025, 17:08:42] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[04/11/2025, 17:08:42] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[04/11/2025, 17:09:43] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: UNIMED
+[04/11/2025, 17:09:45] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: UNIMED
+[04/11/2025, 17:09:47] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 3 → 4 - Usuário: UNIMED
+[04/11/2025, 17:09:48] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 4 → 5 - Usuário: UNIMED
+[04/11/2025, 17:10:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: M - Usuário: UNIMED
+[04/11/2025, 17:10:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MA - Usuário: UNIMED
+[04/11/2025, 17:10:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MAR - Usuário: UNIMED
+[04/11/2025, 17:10:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARI - Usuário: UNIMED
+[04/11/2025, 17:10:16] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MARIA - Usuário: UNIMED

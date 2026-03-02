@@ -1,0 +1,31 @@
+[05/12/2025, 07:49:21] LOGIN - Falha - Usuário: MARI PREVIATO
+[05/12/2025, 09:34:15] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:17] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:18] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:18] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:19] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:30] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:30] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:32] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: m - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:32] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mi - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:33] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mil - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:33] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mile - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: milen - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: milena - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: milena - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: milena c - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: milena ca - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:39] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106129, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[05/12/2025, 09:34:42] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[05/12/2025, 11:19:30] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[05/12/2025, 11:19:31] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-04 - Usuário: MARI PREVIATO
+[05/12/2025, 11:19:35] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-05 - Usuário: MARI PREVIATO
+[05/12/2025, 11:19:50] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 18/11/2025 a 05/12/2025 - Usuário: MARI PREVIATO
+[05/12/2025, 11:19:57] DETALHES - Cliente: ANA PAULA ANDRADE AMARAL DE ARAUJO - Período: 18/11/2025 a 05/12/2025 - Usuário: MARI PREVIATO
+[05/12/2025, 11:20:14] DETALHES - Cliente: ROBERTA CASSANDRA DE OLIVEIRA - Período: 18/11/2025 a 05/12/2025 - Usuário: MARI PREVIATO
+[05/12/2025, 14:30:20] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[05/12/2025, 14:30:21] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-05 - Usuário: MARI PREVIATO
+[05/12/2025, 14:30:32] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 18/11/2025 a 05/12/2025 - Usuário: MARI PREVIATO
+[05/12/2025, 16:29:25] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[05/12/2025, 16:29:27] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-05 - Usuário: MARI PREVIATO
+[05/12/2025, 16:29:37] DETALHES - Cliente: ALESSANDRA HENKLAIN TORRES DA SILVA - Período: 18/11/2025 a 05/12/2025 - Usuário: MARI PREVIATO

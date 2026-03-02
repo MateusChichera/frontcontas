@@ -1,0 +1,28 @@
+[19/02/2026, 08:45:53] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/02/2026, 08:45:54] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: MARI PREVIATO
+[19/02/2026, 11:04:49] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/02/2026, 11:04:50] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: MARI PREVIATO
+[19/02/2026, 12:17:51] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/02/2026, 12:17:54] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: MARI PREVIATO
+[19/02/2026, 12:18:08] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: MARI PREVIATO
+[19/02/2026, 12:18:10] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: MARI PREVIATO
+[19/02/2026, 12:43:06] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/02/2026, 12:43:07] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: MARI PREVIATO
+[19/02/2026, 14:21:56] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[19/02/2026, 14:21:59] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:08] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:12] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:12] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: e - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:16] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: el - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:16] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: els - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:16] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elso - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:16] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:18] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:18] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson r - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:18] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson ro - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson rob - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson robe - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson rober - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elson robert - Usuário: FRANCISLAINE
+[19/02/2026, 14:22:23] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106109, Status alterado para: Bloqueado - Usuário: FRANCISLAINE

@@ -1,0 +1,62 @@
+[27/02/2026, 07:40:38] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[27/02/2026, 07:40:40] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-26 - Usuário: MARI PREVIATO
+[27/02/2026, 07:40:42] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: MARI PREVIATO
+[27/02/2026, 09:16:17] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[27/02/2026, 09:16:20] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:44] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:47] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:47] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: f - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fe - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fer - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fern - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ferna - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernan - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernand - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:52] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando r - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:52] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando ro - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando rod - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando rodr - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fernando rodri - Usuário: FRANCISLAINE
+[27/02/2026, 09:24:59] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106512, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[27/02/2026, 10:50:27] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[27/02/2026, 10:50:29] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: FRANCISLAINE
+[27/02/2026, 10:50:51] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:50:54] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:51:00] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:51:01] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:51:03] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[27/02/2026, 10:51:03] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[27/02/2026, 10:51:05] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:55:06] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:55:17] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-27 - Usuário: FRANCISLAINE
+[27/02/2026, 10:56:26] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[27/02/2026, 10:56:26] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[27/02/2026, 10:56:52] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-27 - Usuário: FRANCISLAINE
+[27/02/2026, 10:57:49] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:57:56] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:58:09] RELATÓRIO - Tipo: Títulos - Período: 2026-01-01 a 2026-01-31 - Usuário: FRANCISLAINE
+[27/02/2026, 10:58:17] RELATÓRIO - Tipo: Títulos - Período: 2026-01-01 a 2026-02-28 - Usuário: FRANCISLAINE
+[27/02/2026, 10:58:23] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 01/01/2026 a 28/02/2026 - Usuário: FRANCISLAINE
+[27/02/2026, 10:58:57] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-03-18 - Usuário: FRANCISLAINE
+[27/02/2026, 10:59:05] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 19/02/2026 a 18/03/2026 - Usuário: FRANCISLAINE
+[27/02/2026, 11:00:26] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[27/02/2026, 11:00:28] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-03-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:00:38] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:05:04] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[27/02/2026, 11:05:26] RELATÓRIO - Tipo: Títulos - Período: 2026-02-27 a 2026-03-29 - Usuário: FRANCISLAINE
+[27/02/2026, 11:05:47] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:06:25] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:07:07] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:07:09] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 11:39:45] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[27/02/2026, 11:39:47] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: MARI PREVIATO
+[27/02/2026, 11:40:02] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 19/02/2026 a 27/02/2026 - Usuário: MARI PREVIATO
+[27/02/2026, 15:49:04] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[27/02/2026, 15:49:05] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-27 - Usuário: MARI PREVIATO
+[27/02/2026, 16:07:05] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[27/02/2026, 16:07:05] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 16:07:07] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[27/02/2026, 16:07:07] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE

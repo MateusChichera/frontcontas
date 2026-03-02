@@ -1,0 +1,18 @@
+[19/11/2025, 08:06:11] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[19/11/2025, 08:06:14] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[19/11/2025, 08:06:34] IMPRESSÃO - Tipo: Exportação CSV Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[19/11/2025, 08:06:38] IMPRESSÃO - Tipo: Relatório Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[19/11/2025, 08:25:38] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[19/11/2025, 08:25:40] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[19/11/2025, 08:25:44] IMPRESSÃO - Tipo: Relatório Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[19/11/2025, 14:04:33] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/11/2025, 14:04:35] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: MARI PREVIATO
+[19/11/2025, 14:04:56] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-11-19 - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:38] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:40] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-11-19 - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:44] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-11-19 - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:46] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-11-19 - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:50] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-19 - Usuário: MARI PREVIATO
+[19/11/2025, 15:46:55] DETALHES - Cliente: SIMONE RAINHO TEIXEIRA - Período: 18/11/2025 a 19/11/2025 - Usuário: MARI PREVIATO
+[19/11/2025, 15:58:44] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/11/2025, 15:58:46] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-19 - Usuário: MARI PREVIATO

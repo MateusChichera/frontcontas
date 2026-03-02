@@ -1,0 +1,18 @@
+[08/01/2026, 08:57:16] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[08/01/2026, 08:57:19] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-07 - Usuário: MARI PREVIATO
+[08/01/2026, 08:57:22] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-08 - Usuário: MARI PREVIATO
+[08/01/2026, 14:39:05] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:40:53] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:40:58] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:42:36] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:42:51] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:44:29] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:45:08] LOGIN - Falha - Usuário: UNIMED
+[08/01/2026, 14:47:11] LOGIN - Sucesso - Usuário: UNIMED
+[08/01/2026, 14:47:14] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[08/01/2026, 14:47:14] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[08/01/2026, 14:47:20] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: backrizzopp.infomaster.inf.br - Usuário: UNIMED
+[08/01/2026, 14:47:26] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 26735436865 - Usuário: UNIMED
+[08/01/2026, 14:47:26] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[08/01/2026, 14:48:50] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[08/01/2026, 14:48:52] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-08 - Usuário: MARI PREVIATO

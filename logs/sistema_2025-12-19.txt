@@ -1,0 +1,49 @@
+[19/12/2025, 08:03:38] LOGIN - Falha - Usuário: MARI PREVIATO
+[19/12/2025, 08:30:23] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 08:30:55] LOGIN - Falha - Usuário: MARI PREVIATO
+[19/12/2025, 09:02:09] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 09:06:20] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 10:53:54] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 11:51:59] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 11:58:23] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 11:59:28] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/12/2025, 12:24:13] LOGIN - Sucesso - Usuário: UNIMED
+[19/12/2025, 14:02:43] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/12/2025, 14:02:44] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-17 - Usuário: MARI PREVIATO
+[19/12/2025, 14:02:52] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-19 - Usuário: MARI PREVIATO
+[19/12/2025, 14:19:42] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:44] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:44] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:46] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:52] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:56] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:57] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[19/12/2025, 14:19:57] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:01] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: s - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:01] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: sa - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:01] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: sam - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:01] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samr - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:01] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samra - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:03] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:07] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:08] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:12] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:15] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:18] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:18] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: s - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: sa - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: sam - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: sama - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samar - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samara - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samara - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samara d - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samara de - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:23] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: samara de - Usuário: FRANCISLAINE
+[19/12/2025, 14:20:27] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106476, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[19/12/2025, 14:26:09] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 14:26:19] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[19/12/2025, 16:33:32] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[19/12/2025, 16:33:37] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-19 - Usuário: MARI PREVIATO
+[19/12/2025, 16:33:41] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 19/12/2025 a 19/12/2025 - Usuário: MARI PREVIATO

@@ -1,0 +1,15 @@
+[22/12/2025, 08:34:48] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[22/12/2025, 08:34:50] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-19 - Usuário: MARI PREVIATO
+[22/12/2025, 08:34:54] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 11:05:34] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[22/12/2025, 11:05:36] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 11:05:38] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 11:05:39] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 11:05:42] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 19/12/2025 a 22/12/2025 - Usuário: MARI PREVIATO
+[22/12/2025, 14:04:33] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[22/12/2025, 14:04:35] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 14:04:38] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 14:07:10] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 16:43:51] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[22/12/2025, 16:43:59] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO
+[22/12/2025, 16:44:03] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2025-12-22 - Usuário: MARI PREVIATO

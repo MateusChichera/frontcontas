@@ -1,0 +1,16 @@
+[06/11/2025, 09:30:20] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:23] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:23] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: A - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: AN - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA C - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CA - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CAR - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:27] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CARO - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:28] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CAROL - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:28] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CAROLI - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:28] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CAROLIN - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:28] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ANA CAROLINA - Usuário: FRANCISLAINE
+[06/11/2025, 09:30:30] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106284, Status alterado para: Bloqueado - Usuário: FRANCISLAINE

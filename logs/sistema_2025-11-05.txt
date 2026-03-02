@@ -1,0 +1,36 @@
+[05/11/2025, 08:37:46] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[05/11/2025, 08:37:49] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[05/11/2025, 08:37:49] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:05] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:06] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 3 → 4 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:06] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 4 → 5 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:06] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 5 → 6 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:07] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 6 → 7 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:07] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 7 → 8 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:07] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 8 → 9 - Usuário: FRANCISLAINE
+[05/11/2025, 08:38:07] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 9 → 10 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:02] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 10 → 11 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:03] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 11 → 12 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:03] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 12 → 13 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:03] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 13 → 14 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:03] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 14 → 15 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 15 → 16 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 16 → 17 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 17 → 18 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 18 → 19 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:04] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 19 → 20 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:05] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 20 → 21 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:17] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 21 → 22 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:18] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 22 → 23 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:18] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 23 → 24 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 24 → 25 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 25 → 26 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 26 → 27 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 27 → 28 - Usuário: FRANCISLAINE
+[05/11/2025, 08:40:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 28 → 29 - Usuário: FRANCISLAINE
+[05/11/2025, 08:43:05] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[05/11/2025, 08:43:05] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[05/11/2025, 08:50:11] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[05/11/2025, 08:51:21] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[05/11/2025, 08:51:21] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE

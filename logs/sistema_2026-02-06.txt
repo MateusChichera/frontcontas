@@ -1,0 +1,32 @@
+[06/02/2026, 08:48:09] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[06/02/2026, 08:48:12] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-05 - Usuário: MARI PREVIATO
+[06/02/2026, 08:48:16] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-06 - Usuário: MARI PREVIATO
+[06/02/2026, 09:09:04] LOGIN - Sucesso - Usuário: UNIMED
+[06/02/2026, 09:09:08] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[06/02/2026, 09:09:19] RELATÓRIO - Tipo: Títulos - Período: 2025-12-01 a 2025-12-01 - Usuário: UNIMED
+[06/02/2026, 09:09:26] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[06/02/2026, 09:09:42] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2026-01-31 - Usuário: UNIMED
+[06/02/2026, 09:09:48] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/01/2025 a 31/01/2026 - Usuário: UNIMED
+[06/02/2026, 09:10:01] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[06/02/2026, 09:10:01] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[06/02/2026, 09:10:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: UNIMED
+[06/02/2026, 09:10:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: UNIMED
+[06/02/2026, 09:10:19] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 3 → 4 - Usuário: UNIMED
+[06/02/2026, 09:11:08] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[06/02/2026, 09:11:08] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[06/02/2026, 09:11:09] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[06/02/2026, 09:11:09] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[06/02/2026, 09:11:11] LOGOUT - Usuário: UNIMED
+[06/02/2026, 09:14:24] LOGIN - Falha - Usuário:  UNIMED
+[06/02/2026, 09:14:55] LOGIN - Sucesso - Usuário: UNIMED
+[06/02/2026, 09:14:59] RELATÓRIO - Tipo: Títulos - Período: 2026-02-06 a 2026-03-08 - Usuário: UNIMED
+[06/02/2026, 09:15:01] RELATÓRIO - Tipo: Títulos - Período: 2026-02-06 a 2026-03-08 - Usuário: UNIMED
+[06/02/2026, 09:15:06] RELATÓRIO - Tipo: Títulos - Período: 2026-01-06 a 2026-03-08 - Usuário: UNIMED
+[06/02/2026, 09:15:07] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 06/01/2026 a 08/03/2026 - Usuário: UNIMED
+[06/02/2026, 09:15:12] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 06/01/2026 a 08/03/2026 - Usuário: UNIMED
+[06/02/2026, 09:15:18] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[06/02/2026, 09:15:18] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[06/02/2026, 10:26:45] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[06/02/2026, 10:26:46] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-06 - Usuário: MARI PREVIATO
+[06/02/2026, 14:44:53] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[06/02/2026, 14:44:54] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-06 - Usuário: MARI PREVIATO

@@ -1,0 +1,8 @@
+[03/02/2026, 08:06:57] LOGIN - Falha - Usuário: FRANCISLAINE
+[03/02/2026, 14:05:18] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[03/02/2026, 14:05:20] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-02 - Usuário: MARI PREVIATO
+[03/02/2026, 14:05:25] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-03 - Usuário: MARI PREVIATO
+[03/02/2026, 16:36:37] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[03/02/2026, 16:36:42] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-03 - Usuário: MARI PREVIATO
+[03/02/2026, 16:53:12] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[03/02/2026, 16:53:14] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-03 - Usuário: MARI PREVIATO

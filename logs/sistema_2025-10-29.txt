@@ -8,3 +8,12 @@
 [29/10/2025, 10:43:23] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
 [29/10/2025, 10:43:32] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 105869, Status alterado para: Bloqueado - Usuário: Administrador PharmaW
 [29/10/2025, 10:43:49] RELATÓRIO - Tipo: Desbloquear Cliente - Período: Código: 105869, Status alterado para: Ativo - Usuário: Administrador PharmaW
+[29/10/2025, 13:02:24] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[29/10/2025, 17:55:56] LOGIN - Sucesso - Usuário: UNIMED
+[29/10/2025, 17:56:02] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-10-31 - Usuário: UNIMED
+[29/10/2025, 17:56:02] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[29/10/2025, 17:56:02] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[29/10/2025, 17:57:32] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[29/10/2025, 17:57:32] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[29/10/2025, 17:57:48] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-10-31 - Usuário: UNIMED
+[29/10/2025, 17:57:51] LOGOUT - Usuário: UNIMED

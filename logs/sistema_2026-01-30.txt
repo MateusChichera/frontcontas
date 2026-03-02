@@ -1,0 +1,7 @@
+[30/01/2026, 11:07:27] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[30/01/2026, 11:07:29] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-29 - Usuário: MARI PREVIATO
+[30/01/2026, 11:07:33] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-30 - Usuário: MARI PREVIATO
+[30/01/2026, 15:00:20] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[30/01/2026, 15:00:22] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-30 - Usuário: MARI PREVIATO
+[30/01/2026, 15:22:11] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[30/01/2026, 15:22:18] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-30 - Usuário: MARI PREVIATO

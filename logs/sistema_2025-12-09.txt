@@ -1,0 +1,36 @@
+[09/12/2025, 10:07:00] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:02] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:15] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:15] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:20] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: v - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:20] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: vi - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: vic - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: vict - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victo - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:21] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor e - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor em - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:22] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor emm - Usuário: FRANCISLAINE
+[09/12/2025, 10:07:24] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106410, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[09/12/2025, 14:28:27] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/12/2025, 14:28:33] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-05 - Usuário: MARI PREVIATO
+[09/12/2025, 14:28:37] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-09 - Usuário: MARI PREVIATO
+[09/12/2025, 14:28:40] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 18/11/2025 a 09/12/2025 - Usuário: MARI PREVIATO
+[09/12/2025, 14:29:12] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 18/11/2025 a 09/12/2025 - Usuário: MARI PREVIATO
+[09/12/2025, 16:28:47] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[09/12/2025, 16:29:16] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[09/12/2025, 16:29:16] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[09/12/2025, 16:29:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: victor em - Usuário: Administrador PharmaW
+[09/12/2025, 16:29:24] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-31 - Usuário: Administrador PharmaW
+[09/12/2025, 16:29:29] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:30:22] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:30:46] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:30:50] DETALHES - Cliente: DOUGLAS BERALDO PONTES - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:30:58] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:31:14] RELATÓRIO - Tipo: Títulos - Período: 2025-08-01 a 2025-12-31 - Usuário: Administrador PharmaW
+[09/12/2025, 16:31:21] DETALHES - Cliente: ROBERTA CASSANDRA DE OLIVEIRA - Período: 01/08/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:31:23] DETALHES - Cliente: WANESSA APARECIDA ZAMBERLAN - Período: 01/08/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:31:25] DETALHES - Cliente: ANA PAULA ANDRADE AMARAL DE ARAUJO - Período: 01/08/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[09/12/2025, 16:34:58] RELATÓRIO - Tipo: Títulos - Período: 2025-08-01 a 2025-12-31 - Usuário: Administrador PharmaW
+[09/12/2025, 16:35:10] RELATÓRIO - Tipo: Títulos - Período: 2025-08-01 a 2025-12-31 - Usuário: Administrador PharmaW

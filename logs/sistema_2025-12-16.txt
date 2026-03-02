@@ -1,0 +1,36 @@
+[16/12/2025, 08:18:57] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[16/12/2025, 08:18:58] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-15 - Usuário: MARI PREVIATO
+[16/12/2025, 08:19:03] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-16 - Usuário: MARI PREVIATO
+[16/12/2025, 11:41:54] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[16/12/2025, 11:41:56] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-16 - Usuário: MARI PREVIATO
+[16/12/2025, 11:42:01] DETALHES - Cliente: GABRIELA ANDRADE ALVES - Período: 12/12/2025 a 16/12/2025 - Usuário: MARI PREVIATO
+[16/12/2025, 14:47:03] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[16/12/2025, 14:47:05] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-16 - Usuário: MARI PREVIATO
+[16/12/2025, 14:47:10] DETALHES - Cliente: LETICIA TEREZA DA CRUZ BERTANI - Período: 12/12/2025 a 16/12/2025 - Usuário: MARI PREVIATO
+[16/12/2025, 15:58:57] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[16/12/2025, 15:59:00] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-16 - Usuário: MARI PREVIATO
+[16/12/2025, 15:59:04] DETALHES - Cliente: JEANE NUNES DA SILVA - Período: 12/12/2025 a 16/12/2025 - Usuário: MARI PREVIATO
+[16/12/2025, 16:52:05] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[16/12/2025, 16:57:23] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:57:30] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 31/07/2025 a 30/12/2025 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:05] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:06] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:07] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:08] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:10] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 31/07/2025 a 30/12/2025 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:12] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:13] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:14] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:14] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:18] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:18] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:19] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:25] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:31] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:33] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:34] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:40] DETALHES - Cliente: ELIANE GISELLE FERNANDES - Período: 31/07/2025 a 30/12/2025 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:44] IMPRESSÃO - Tipo: Detalhes Cliente - Cliente: ELIANE GISELLE FERNANDES - Período: 31/07/2025 a 30/12/2025 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:51] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:58] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[16/12/2025, 16:58:59] LOGOUT - Usuário: Administrador PharmaW

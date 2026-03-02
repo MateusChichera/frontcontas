@@ -1,0 +1,63 @@
+[21/01/2026, 08:50:55] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[21/01/2026, 08:50:57] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-12 - Usuário: MARI PREVIATO
+[21/01/2026, 08:51:11] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-21 - Usuário: MARI PREVIATO
+[21/01/2026, 08:51:14] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 19/01/2026 a 21/01/2026 - Usuário: MARI PREVIATO
+[21/01/2026, 08:51:21] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[21/01/2026, 08:52:05] RELATÓRIO - Tipo: Títulos - Período: 2025-08-01 a 2025-12-31 - Usuário: Administrador PharmaW
+[21/01/2026, 08:52:25] RELATÓRIO - Tipo: Títulos - Período: 2025-11-01 a 2026-01-21 - Usuário: Administrador PharmaW
+[21/01/2026, 08:52:28] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 01/11/2025 a 21/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:53:09] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/11/2025 a 21/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:53:12] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/11/2025 a 21/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:53:40] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/11/2025 a 21/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:54:00] RELATÓRIO - Tipo: Títulos - Período: 2025-11-01 a 2026-01-31 - Usuário: Administrador PharmaW
+[21/01/2026, 08:54:04] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2026-01-31 - Usuário: Administrador PharmaW
+[21/01/2026, 08:54:05] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 31/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:54:24] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2026-01-31 - Usuário: Administrador PharmaW
+[21/01/2026, 08:54:45] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 31/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 08:55:22] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 31/01/2026 - Usuário: Administrador PharmaW
+[21/01/2026, 11:06:25] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[21/01/2026, 11:06:37] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: FRANCISLAINE
+[21/01/2026, 11:06:49] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:05] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:07] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:07] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: m - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ma - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mat - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: math - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mathe - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheu - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:14] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:14] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus h - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus he - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus hen - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus henr - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:15] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: matheus henri - Usuário: FRANCISLAINE
+[21/01/2026, 11:07:18] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106523, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:17] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:32] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:42] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:42] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: c - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ca - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: cam - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: cami - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camil - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila f - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila d - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila da - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: camila dal - Usuário: FRANCISLAINE
+[21/01/2026, 11:19:50] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106396, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[21/01/2026, 15:07:11] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[21/01/2026, 15:07:19] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:04] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:17] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:17] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:20] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:28] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-18 - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:43] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-21 - Usuário: FRANCISLAINE
+[21/01/2026, 15:08:54] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-18 - Usuário: FRANCISLAINE

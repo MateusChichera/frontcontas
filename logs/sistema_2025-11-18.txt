@@ -1,0 +1,26 @@
+[18/11/2025, 08:02:03] LOGIN - Falha - Usuário: MARI PREVIATO
+[18/11/2025, 08:04:15] LOGIN - Falha - Usuário: MARI PREVIATO
+[18/11/2025, 08:50:33] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[18/11/2025, 08:50:35] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 10:02:10] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[18/11/2025, 10:02:12] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 10:02:21] DETALHES - Cliente: ALINE MARY RODRIGUES DA SILVA - Período: 10/11/2025 a 18/12/2025 - Usuário: MARI PREVIATO
+[18/11/2025, 10:02:36] DETALHES - Cliente: CARLA JULIANA VALERA CORREIA - Período: 10/11/2025 a 18/12/2025 - Usuário: MARI PREVIATO
+[18/11/2025, 10:02:45] DETALHES - Cliente: ALINE MARY RODRIGUES DA SILVA - Período: 10/11/2025 a 18/12/2025 - Usuário: MARI PREVIATO
+[18/11/2025, 10:37:33] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[18/11/2025, 10:37:35] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[18/11/2025, 10:37:48] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[18/11/2025, 10:37:51] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[18/11/2025, 10:38:05] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[18/11/2025, 10:38:05] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[18/11/2025, 10:38:23] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[18/11/2025, 10:38:25] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[18/11/2025, 10:38:25] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[18/11/2025, 11:38:21] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[18/11/2025, 11:38:22] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 14:40:22] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[18/11/2025, 14:40:24] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 14:40:44] IMPRESSÃO - Tipo: Relatório Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 14:40:56] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-18 - Usuário: MARI PREVIATO
+[18/11/2025, 14:41:09] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: MARI PREVIATO
+[18/11/2025, 14:41:19] IMPRESSÃO - Tipo: Exportação CSV Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: MARI PREVIATO

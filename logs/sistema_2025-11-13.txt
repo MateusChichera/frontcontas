@@ -1,0 +1,15 @@
+[13/11/2025, 08:42:59] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[13/11/2025, 08:43:01] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-13 - Usuário: MARI PREVIATO
+[13/11/2025, 10:42:45] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[13/11/2025, 10:42:55] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[13/11/2025, 10:42:55] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[13/11/2025, 10:42:58] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: W - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: We - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Status: Ativo - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:09] RELATÓRIO - Tipo: Busca de Clientes - Período: Status: Bloqueado - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:40] RELATÓRIO - Tipo: Títulos - Período: 2025-09-01 a 2025-12-11 - Usuário: Administrador PharmaW
+[13/11/2025, 10:43:42] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/09/2025 a 11/12/2025 - Usuário: Administrador PharmaW
+[13/11/2025, 10:44:00] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 31/07/2025 a 30/12/2025 - Usuário: Administrador PharmaW
+[13/11/2025, 10:44:01] RELATÓRIO - Tipo: Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW
+[13/11/2025, 10:44:06] IMPRESSÃO - Tipo: Exportação CSV Títulos - Período: 2025-07-31 a 2025-12-30 - Usuário: Administrador PharmaW

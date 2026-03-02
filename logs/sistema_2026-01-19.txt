@@ -1,0 +1,17 @@
+[19/01/2026, 10:44:31] LOGIN - Falha - Usuário: FRANCISLAINE
+[19/01/2026, 14:18:27] LOGIN - Falha - Usuário: Administrador PharmaW
+[19/01/2026, 14:19:00] LOGIN - Falha - Usuário: Administrador PharmaW
+[19/01/2026, 14:16:12] LOGIN - Falha - Usuário: Administrador PharmaW
+[19/01/2026, 14:25:40] LOGIN - Falha - Usuário: Administrador PharmaW
+[19/01/2026, 14:56:23] LOGIN - Falha - Usuário: Administrador PharmaW
+[19/01/2026, 15:39:27] LOGIN - Falha - Usuário: MARI PREVIATO
+[19/01/2026, 16:40:23] LOGIN - Falha - Usuário: UNIMED
+[19/01/2026, 16:40:28] LOGIN - Falha - Usuário: UNIMED
+[19/01/2026, 17:00:11] LOGIN - Falha - Usuário: UNIMED
+[19/01/2026, 17:03:28] LOGIN - Falha - Usuário: UNIMED
+[19/01/2026, 17:10:39] LOGIN - Falha - Usuário: UNIMED
+[19/01/2026, 17:12:50] LOGIN - Sucesso - Usuário: UNIMED
+[19/01/2026, 17:17:41] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[19/01/2026, 17:29:46] LOGIN - Sucesso - Usuário: UNIMED
+[19/01/2026, 17:29:49] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[19/01/2026, 17:29:53] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED

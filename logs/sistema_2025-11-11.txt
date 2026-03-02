@@ -1,0 +1,11 @@
+[11/11/2025, 11:29:27] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[11/11/2025, 11:29:29] RELATÓRIO - Tipo: Títulos - Período: 2025-11-11 a 2025-12-11 - Usuário: MARI PREVIATO
+[11/11/2025, 11:29:44] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 11/11/2025 a 11/12/2025 - Usuário: MARI PREVIATO
+[11/11/2025, 11:29:40] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[11/11/2025, 11:29:41] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[11/11/2025, 11:29:41] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[11/11/2025, 11:29:42] RELATÓRIO - Tipo: Títulos - Período: 2025-09-01 a 2025-12-11 - Usuário: Administrador PharmaW
+[11/11/2025, 11:29:44] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 01/09/2025 a 11/12/2025 - Usuário: Administrador PharmaW
+[11/11/2025, 11:29:57] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/09/2025 a 11/12/2025 - Usuário: Administrador PharmaW
+[11/11/2025, 14:59:02] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[11/11/2025, 14:59:06] RELATÓRIO - Tipo: Títulos - Período: 2025-11-11 a 2025-12-11 - Usuário: MARI PREVIATO

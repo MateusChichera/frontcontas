@@ -1,0 +1,39 @@
+[20/02/2026, 08:04:52] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[20/02/2026, 08:04:55] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-19 - Usuário: MARI PREVIATO
+[20/02/2026, 08:05:02] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-20 - Usuário: MARI PREVIATO
+[20/02/2026, 08:05:03] DETALHES - Cliente: SIMONE RAINHO TEIXEIRA - Período: 19/02/2026 a 20/02/2026 - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:17] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:18] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-20 - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:22] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-20 - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:22] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-20 - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:24] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:24] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: P - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: PO - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POL - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POLI - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POLIA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POLIAN - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POLIANA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: POLIANA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:39] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106216, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: T - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: TH - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAI - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAIN - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAINA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:48] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAINA - Usuário: MARI PREVIATO
+[20/02/2026, 09:14:52] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106075, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:21] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:25] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-20 - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:26] DETALHES - Cliente: SIMONE RAINHO TEIXEIRA - Período: 19/02/2026 a 20/02/2026 - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:29] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:29] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: E - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ED - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: EDN - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: EDNA - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: EDNA - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: EDNA R - Usuário: MARI PREVIATO
+[20/02/2026, 10:44:39] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106207, Status alterado para: Bloqueado - Usuário: MARI PREVIATO

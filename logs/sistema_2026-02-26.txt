@@ -1,0 +1,22 @@
+[26/02/2026, 09:04:49] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:51] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:51] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: N - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NA - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NAT - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATA - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATAL - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALI - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALIZ - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALI - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALIA - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALIA - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALIA M - Usuário: MARI PREVIATO
+[26/02/2026, 09:04:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: NATALIA MA - Usuário: MARI PREVIATO
+[26/02/2026, 09:05:01] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106317, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[26/02/2026, 09:05:11] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-25 - Usuário: MARI PREVIATO
+[26/02/2026, 09:45:20] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[26/02/2026, 09:45:23] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-25 - Usuário: MARI PREVIATO
+[26/02/2026, 09:45:28] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-26 - Usuário: MARI PREVIATO
+[26/02/2026, 14:38:07] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[26/02/2026, 14:38:09] RELATÓRIO - Tipo: Títulos - Período: 2026-02-19 a 2026-02-26 - Usuário: MARI PREVIATO

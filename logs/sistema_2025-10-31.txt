@@ -1,0 +1,32 @@
+[31/10/2025, 08:25:42] LOGIN - Falha - Usuário: 40386342806
+[31/10/2025, 08:25:54] LOGIN - Falha - Usuário: 403.863.428-06
+[31/10/2025, 08:26:03] LOGIN - Falha - Usuário: 403.863.428-06
+[31/10/2025, 08:31:06] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[31/10/2025, 08:31:10] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:31:10] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[31/10/2025, 08:41:00] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[31/10/2025, 08:41:01] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:41:01] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[31/10/2025, 08:41:46] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 4 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:45] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 40 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 4038 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 40386 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403863 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:46] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 4038634 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 40386342 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403863428 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 4038634280 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:47] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 40386342806 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:48] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:51] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403.86342806 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403.863.42806 - Usuário: FRANCISLAINE
+[31/10/2025, 08:42:58] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: 403.863.428-06 - Usuário: FRANCISLAINE
+[31/10/2025, 08:43:00] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:43:08] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 08:43:08] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[31/10/2025, 16:56:11] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[31/10/2025, 16:56:12] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[31/10/2025, 16:56:12] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE

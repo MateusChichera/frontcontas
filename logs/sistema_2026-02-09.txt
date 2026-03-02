@@ -1,0 +1,31 @@
+[09/02/2026, 07:55:06] LOGIN - Falha - Usuário: MARI PREVIATO
+[09/02/2026, 10:06:34] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[09/02/2026, 10:06:37] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-18 - Usuário: FRANCISLAINE
+[09/02/2026, 10:06:49] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[09/02/2026, 10:06:57] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:00] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:00] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: r - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ri - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ric - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricr - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:05] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricrd - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricr - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ric - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ri - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ric - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: rica - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricar - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricard - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricardo - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ricardo - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:14] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106161, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:15] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[09/02/2026, 10:07:47] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-18 - Usuário: FRANCISLAINE
+[09/02/2026, 11:03:23] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/02/2026, 11:03:31] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-06 - Usuário: MARI PREVIATO
+[09/02/2026, 11:03:36] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-09 - Usuário: MARI PREVIATO
+[09/02/2026, 14:21:53] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/02/2026, 14:21:55] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-09 - Usuário: MARI PREVIATO
+[09/02/2026, 15:29:22] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/02/2026, 15:29:24] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-09 - Usuário: MARI PREVIATO

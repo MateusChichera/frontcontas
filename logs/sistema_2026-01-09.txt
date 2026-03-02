@@ -1,0 +1,31 @@
+[09/01/2026, 09:18:46] LOGIN - Falha - Usuário: FRANCISLAINE
+[09/01/2026, 09:23:54] LOGIN - Falha - Usuário: UNIMED
+[09/01/2026, 09:43:44] LOGIN - Sucesso - Usuário: UNIMED
+[09/01/2026, 09:44:35] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/01/2026, 09:44:38] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-08 - Usuário: MARI PREVIATO
+[09/01/2026, 09:44:42] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 09:44:50] DETALHES - Cliente: SONIA RODRIGUES TEODORO - Período: 19/12/2025 a 09/01/2026 - Usuário: MARI PREVIATO
+[09/01/2026, 09:46:31] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:48] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:48] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: g - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ga - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:54] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gab - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gabr - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gabri - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gabrie - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gabriel - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:55] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: gabriel - Usuário: FRANCISLAINE
+[09/01/2026, 09:46:59] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 105869, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[09/01/2026, 09:47:02] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-19 - Usuário: FRANCISLAINE
+[09/01/2026, 09:47:50] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: FRANCISLAINE
+[09/01/2026, 10:50:39] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/01/2026, 10:50:40] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 10:51:38] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 10:51:41] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 11:07:10] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/01/2026, 11:07:12] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 13:56:44] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[09/01/2026, 13:56:46] RELATÓRIO - Tipo: Títulos - Período: 2025-12-19 a 2026-01-09 - Usuário: MARI PREVIATO
+[09/01/2026, 13:56:50] DETALHES - Cliente: LETICIA TEREZA DA CRUZ BERTANI - Período: 19/12/2025 a 09/01/2026 - Usuário: MARI PREVIATO
+[09/01/2026, 13:57:16] DETALHES - Cliente: GLECIELI ALVES ZANON - Período: 19/12/2025 a 09/01/2026 - Usuário: MARI PREVIATO

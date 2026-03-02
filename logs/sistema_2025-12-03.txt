@@ -1,0 +1,47 @@
+[03/12/2025, 11:53:43] LOGIN - Falha - Usuário: FRANCISLAINE
+[03/12/2025, 12:04:51] LOGIN - Sucesso - Usuário: UNIMED
+[03/12/2025, 12:04:53] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[03/12/2025, 12:04:54] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[03/12/2025, 12:05:09] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:13] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:37] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:37] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:40] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: i - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:40] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: is - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:40] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isa - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:40] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isab - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:40] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabe - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:42] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabel - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:42] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabele - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:42] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabele - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:42] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabele v - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:43] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: isabele va - Usuário: FRANCISLAINE
+[03/12/2025, 12:05:45] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106247, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[03/12/2025, 12:10:32] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[03/12/2025, 12:10:35] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[03/12/2025, 12:10:36] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[03/12/2025, 12:10:36] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[03/12/2025, 12:10:39] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: UNIMED
+[03/12/2025, 12:10:43] RELATÓRIO - Tipo: Busca de Clientes - Período: Status: Bloqueado - Usuário: UNIMED
+[03/12/2025, 12:10:43] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[03/12/2025, 14:01:14] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:17] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-01 - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:22] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-03 - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:26] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 18/11/2025 a 03/12/2025 - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:34] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 18/11/2025 a 03/12/2025 - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:53] DETALHES - Cliente: WANESSA APARECIDA ZAMBERLAN - Período: 18/11/2025 a 03/12/2025 - Usuário: MARI PREVIATO
+[03/12/2025, 14:01:59] DETALHES - Cliente: DOUGLAS BERALDO PONTES - Período: 18/11/2025 a 03/12/2025 - Usuário: MARI PREVIATO
+[03/12/2025, 14:02:42] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 18/11/2025 a 03/12/2025 - Usuário: MARI PREVIATO
+[03/12/2025, 16:15:41] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:43] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:52] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:52] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: T - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: TH - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:56] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THA - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAI - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAIS - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:57] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAIS - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:59] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAIS G - Usuário: FRANCISLAINE
+[03/12/2025, 16:15:59] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: THAIS GA - Usuário: FRANCISLAINE
+[03/12/2025, 16:16:02] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106106, Status alterado para: Bloqueado - Usuário: FRANCISLAINE

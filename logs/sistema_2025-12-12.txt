@@ -1,0 +1,63 @@
+[12/12/2025, 08:07:06] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 08:50:36] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 09:28:37] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 10:23:01] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 10:23:56] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 10:24:50] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 11:36:32] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 11:39:39] LOGIN - Sucesso - Usuário: UNIMED
+[12/12/2025, 11:40:51] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 11:41:47] LOGIN - Falha - Usuário: FRANCISLAINE
+[12/12/2025, 11:42:35] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 11:43:29] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 11:44:14] LOGOUT - Usuário: UNIMED
+[12/12/2025, 11:44:17] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 11:44:19] LOGIN - Sucesso - Usuário: UNIMED
+[12/12/2025, 11:45:06] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2026-01-11 - Usuário: UNIMED
+[12/12/2025, 11:45:48] LOGIN - Falha - Usuário: MARI PREVIATO
+[12/12/2025, 11:46:26] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[12/12/2025, 11:46:29] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[12/12/2025, 11:46:51] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 11:46:57] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-09 - Usuário: MARI PREVIATO
+[12/12/2025, 11:47:02] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 11:48:04] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:04] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: m - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ma - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: mar - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:06] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marc - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marce - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcel - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:07] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela c - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela cr - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela cri - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:08] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: marcela cris - Usuário: FRANCISLAINE
+[12/12/2025, 11:48:13] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106554, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[12/12/2025, 11:57:00] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 11:57:03] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 11:57:08] RELATÓRIO - Tipo: Títulos - Período: 2025-11-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 11:57:17] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 11:57:35] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 12:17:38] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 12:17:40] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 13:42:03] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 13:42:07] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 14:16:05] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 14:16:06] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 14:20:19] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 15:53:51] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 15:53:52] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 15:58:43] LOGIN - Sucesso - Usuário: UNIMED
+[12/12/2025, 15:58:47] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2026-01-11 - Usuário: UNIMED
+[12/12/2025, 15:58:47] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[12/12/2025, 15:58:47] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[12/12/2025, 15:58:49] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: u - Usuário: UNIMED
+[12/12/2025, 15:58:49] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: l - Usuário: UNIMED
+[12/12/2025, 15:58:49] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: le - Usuário: UNIMED
+[12/12/2025, 15:58:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: let - Usuário: UNIMED
+[12/12/2025, 15:58:50] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: leti - Usuário: UNIMED
+[12/12/2025, 16:28:10] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[12/12/2025, 16:28:12] RELATÓRIO - Tipo: Títulos - Período: 2025-12-12 a 2025-12-12 - Usuário: MARI PREVIATO
+[12/12/2025, 16:28:18] DETALHES - Cliente: GABRIELA ANDRADE ALVES - Período: 12/12/2025 a 12/12/2025 - Usuário: MARI PREVIATO

@@ -1,0 +1,31 @@
+[14/11/2025, 09:01:55] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:00] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:00] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:02] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: M - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MA - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MAY - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: MAYA - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:22] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-14 - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:28] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:33] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:35] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:51] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:02:53] DETALHES - Cliente: CARLA JULIANA VALERA CORREIA - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:06] IMPRESSÃO - Tipo: Detalhes Cliente - Cliente: CARLA JULIANA VALERA CORREIA - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:31] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/10/2025 a 14/12/2025 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:42] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-14 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:43] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-14 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:45] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-14 - Usuário: Administrador PharmaW
+[14/11/2025, 09:03:46] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-14 - Usuário: Administrador PharmaW
+[14/11/2025, 09:05:48] LOGOUT - Usuário: Administrador PharmaW
+[14/11/2025, 13:41:07] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[14/11/2025, 13:41:08] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-14 - Usuário: MARI PREVIATO
+[14/11/2025, 13:50:01] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 10/11/2025 a 14/12/2025 - Usuário: MARI PREVIATO
+[14/11/2025, 13:51:20] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[14/11/2025, 13:51:36] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-14 - Usuário: MARI PREVIATO
+[14/11/2025, 13:51:39] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 10/11/2025 a 14/12/2025 - Usuário: MARI PREVIATO
+[14/11/2025, 13:52:19] DETALHES - Cliente: CARLA JULIANA VALERA CORREIA - Período: 10/11/2025 a 14/12/2025 - Usuário: MARI PREVIATO
+[14/11/2025, 13:53:13] DETALHES - Cliente: ANA PAULA ANDRADE AMARAL DE ARAUJO - Período: 10/11/2025 a 14/12/2025 - Usuário: MARI PREVIATO
+[14/11/2025, 13:53:25] DETALHES - Cliente: ALINE MARY RODRIGUES DA SILVA - Período: 10/11/2025 a 14/12/2025 - Usuário: MARI PREVIATO
+[14/11/2025, 15:11:25] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[14/11/2025, 15:11:31] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-12-14 - Usuário: MARI PREVIATO

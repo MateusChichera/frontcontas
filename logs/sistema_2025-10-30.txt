@@ -1,0 +1,7 @@
+[30/10/2025, 08:26:03] LOGIN - Falha - Usuário: 40386342806
+[30/10/2025, 08:36:38] LOGIN - Falha - Usuário: 40386342806
+[30/10/2025, 10:05:47] LOGIN - Sucesso - Usuário: UNIMED
+[30/10/2025, 10:05:48] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[30/10/2025, 10:05:48] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[30/10/2025, 10:05:52] RELATÓRIO - Tipo: Títulos - Período: 2025-10-30 a 2025-10-31 - Usuário: UNIMED
+[30/10/2025, 10:05:55] RELATÓRIO - Tipo: Títulos - Período: 2025-10-30 a 2025-10-31 - Usuário: UNIMED

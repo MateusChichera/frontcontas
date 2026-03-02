@@ -1,0 +1,27 @@
+[17/11/2025, 11:06:14] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:16] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:16] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:19] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:48] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:48] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: k - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ka - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: kaw - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: kawa - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:51] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: kawan - Usuário: FRANCISLAINE
+[17/11/2025, 11:06:56] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106253, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[17/11/2025, 11:07:02] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[17/11/2025, 11:07:06] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[17/11/2025, 11:55:55] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[17/11/2025, 11:55:56] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[17/11/2025, 11:55:56] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[17/11/2025, 11:55:58] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: k - Usuário: Administrador PharmaW
+[17/11/2025, 11:55:59] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ka - Usuário: Administrador PharmaW
+[17/11/2025, 11:55:59] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: kaw - Usuário: Administrador PharmaW
+[17/11/2025, 11:56:08] RELATÓRIO - Tipo: Títulos - Período: 2025-11-17 a 2025-12-17 - Usuário: Administrador PharmaW
+[17/11/2025, 11:56:19] RELATÓRIO - Tipo: Títulos - Período: 2025-10-01 a 2025-12-31 - Usuário: Administrador PharmaW
+[17/11/2025, 11:56:32] DETALHES - Cliente: FERNANDA DE ALENCAR DOS SANTOS - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[17/11/2025, 11:57:06] DETALHES - Cliente: ALINE MARY RODRIGUES DA SILVA - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[17/11/2025, 11:57:08] DETALHES - Cliente: MARIA REGINA MOTA DE OLIVEIRA - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[17/11/2025, 11:57:13] DETALHES - Cliente: ANA PAULA ANDRADE AMARAL DE ARAUJO - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW
+[17/11/2025, 11:57:18] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 01/10/2025 a 31/12/2025 - Usuário: Administrador PharmaW

@@ -1,0 +1,4 @@
+[02/11/2025, 23:01:07] LOGIN - Falha - Usuário: Administrador PharmaW
+[03/11/2025, 10:31:14] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[03/11/2025, 10:31:21] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[03/11/2025, 10:31:21] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE

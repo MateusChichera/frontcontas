@@ -1,0 +1,84 @@
+[07/11/2025, 10:07:56] LOGIN - Falha - Usuário: CAROL OLIVEIRA
+[07/11/2025, 10:08:25] LOGIN - Falha - Usuário: CAROL OLIVEIRA
+[07/11/2025, 10:09:09] LOGIN - Falha - Usuário: MARI PREVIATO
+[07/11/2025, 10:09:39] LOGIN - Falha - Usuário: MARI PREVIATO
+[07/11/2025, 10:09:46] LOGIN - Falha - Usuário: CAROLOLIVEIRA
+[07/11/2025, 10:10:09] LOGIN - Falha - Usuário: MARIPREVIATO
+[07/11/2025, 10:10:13] LOGIN - Falha - Usuário: BRUNO PRADO
+[07/11/2025, 10:10:39] LOGIN - Falha - Usuário: BRUNOPRADO
+[07/11/2025, 10:11:02] LOGIN - Falha - Usuário: brunoprado
+[07/11/2025, 10:49:09] LOGIN - Falha - Usuário: CAROLOLIVEIRA
+[07/11/2025, 10:51:14] LOGIN - Falha - Usuário: MARI PREVIATO
+[07/11/2025, 10:51:17] LOGIN - Falha - Usuário: MARI PREVIATO
+[07/11/2025, 11:13:39] LOGIN - Falha - Usuário: FRANCISLAINE
+[07/11/2025, 11:14:00] LOGIN - Falha - Usuário: FRANCISLAINE
+[07/11/2025, 11:20:29] LOGIN - Falha - Usuário: FRANCISLAINE
+[07/11/2025, 11:21:02] LOGIN - Falha - Usuário: FRANCISLAINE
+[07/11/2025, 11:26:51] LOGIN - Falha - Usuário: FRANCISLAINE
+[07/11/2025, 14:26:53] LOGIN - Falha - Usuário: UNIMED
+[07/11/2025, 14:28:05] LOGIN - Falha - Usuário: UNIMED
+[07/11/2025, 14:32:47] LOGIN - Falha - Usuário: UNIMED
+[07/11/2025, 14:34:36] LOGIN - Falha - Usuário: UNIMED
+[07/11/2025, 14:35:20] LOGIN - Falha - Usuário: UNIMED
+[07/11/2025, 14:42:41] LOGIN - Sucesso - Usuário: UNIMED
+[07/11/2025, 15:04:54] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:02] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:02] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: t - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: ta - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: tai - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: tais - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: tais - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:13] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: tais d - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:14] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: tais de - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:16] LOGIN - Sucesso - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:17] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106446, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[07/11/2025, 15:05:23] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[07/11/2025, 15:05:30] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:30] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: L - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LAR - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARI - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIAN - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIANE - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:38] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIANE - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:41] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:05:48] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[07/11/2025, 15:05:48] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[07/11/2025, 15:05:52] RELATÓRIO - Tipo: Títulos - Período: 2025-11-07 a 2025-12-07 - Usuário: FRANCISLAINE
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: G - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GAB - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABR - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRI - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:03] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIE - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIEL - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:04] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIEL - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIEL - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIELA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIELA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIELA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIEL - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRIE - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABRI - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GABR - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GAB - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: GA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:34] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: G - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:35] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: L - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:36] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LAR - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARI - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:37] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIAN - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:38] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIANE - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIAN - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARIA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LARI - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LAR - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: LA - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:44] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: L - Usuário: CAROL OLIVEIRA
+[07/11/2025, 15:06:46] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[07/11/2025, 15:06:46] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE

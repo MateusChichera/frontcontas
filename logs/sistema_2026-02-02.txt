@@ -1,0 +1,32 @@
+[02/02/2026, 09:19:36] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/02/2026, 09:19:38] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-01-30 - Usuário: MARI PREVIATO
+[02/02/2026, 09:19:46] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-02 - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:02] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-02 - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:04] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:04] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: e - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: el - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: eli - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: eliz - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:11] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elize - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elizeu - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:12] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: elizeu - Usuário: MARI PREVIATO
+[02/02/2026, 09:20:16] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106457, Status alterado para: Bloqueado - Usuário: MARI PREVIATO
+[02/02/2026, 11:08:20] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/02/2026, 11:08:22] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-02 - Usuário: MARI PREVIATO
+[02/02/2026, 11:08:29] DETALHES - Cliente: AMANDA CARVALHO DOS SANTOS - Período: 19/01/2026 a 02/02/2026 - Usuário: MARI PREVIATO
+[02/02/2026, 11:08:40] DETALHES - Cliente: JEANE NUNES DA SILVA - Período: 19/01/2026 a 02/02/2026 - Usuário: MARI PREVIATO
+[02/02/2026, 11:09:09] DETALHES - Cliente: POLIANA DE PAULA CAVALCANTE - Período: 19/01/2026 a 02/02/2026 - Usuário: MARI PREVIATO
+[02/02/2026, 11:09:24] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 19/01/2026 a 02/02/2026 - Usuário: MARI PREVIATO
+[02/02/2026, 15:02:54] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[02/02/2026, 15:02:54] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:07] LOGOUT - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:08] LOGIN - Sucesso - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:09] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:09] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:10] RELATÓRIO - Tipo: Títulos - Período: 2026-02-02 a 2026-01-31 - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:18] RELATÓRIO - Tipo: Títulos - Período: 2025-12-02 a 2026-01-31 - Usuário: Administrador PharmaW
+[02/02/2026, 15:03:24] LOGOUT - Usuário: Administrador PharmaW
+[02/02/2026, 15:38:16] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[02/02/2026, 15:38:18] RELATÓRIO - Tipo: Títulos - Período: 2026-01-19 a 2026-02-02 - Usuário: MARI PREVIATO
+[02/02/2026, 15:38:22] DETALHES - Cliente: CLAUDIO PAULINO DA SILVA - Período: 19/01/2026 a 02/02/2026 - Usuário: MARI PREVIATO

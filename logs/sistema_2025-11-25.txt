@@ -1,0 +1,55 @@
+[25/11/2025, 07:35:13] LOGIN - Falha - Usuário: MARI PREVIATO
+[25/11/2025, 07:35:21] LOGIN - Falha - Usuário: MARI PREVIATO
+[25/11/2025, 08:45:09] LOGIN - Falha - Usuário: MARI PREVIATO
+[25/11/2025, 09:44:57] LOGIN - Falha - Usuário: FRANCISLAINE
+[25/11/2025, 09:45:20] LOGIN - Falha - Usuário: FRANCISLAINE
+[25/11/2025, 09:52:47] LOGIN - Falha - Usuário: MARI PREVIATO
+[25/11/2025, 10:11:37] LOGIN - Falha - Usuário: UNIMED
+[25/11/2025, 10:27:40] LOGIN - Sucesso - Usuário: UNIMED
+[25/11/2025, 10:27:43] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[25/11/2025, 10:27:43] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[25/11/2025, 11:12:29] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[25/11/2025, 11:12:31] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-21 - Usuário: MARI PREVIATO
+[25/11/2025, 11:12:35] DETALHES - Cliente: ELIANE GISELLE FERNANDES - Período: 18/11/2025 a 21/11/2025 - Usuário: MARI PREVIATO
+[25/11/2025, 13:40:11] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[25/11/2025, 13:40:13] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-21 - Usuário: MARI PREVIATO
+[25/11/2025, 13:40:44] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-25 - Usuário: MARI PREVIATO
+[25/11/2025, 13:40:49] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 18/11/2025 a 25/11/2025 - Usuário: MARI PREVIATO
+[25/11/2025, 13:40:58] DETALHES - Cliente: SIMONE RAINHO TEIXEIRA - Período: 18/11/2025 a 25/11/2025 - Usuário: MARI PREVIATO
+[25/11/2025, 15:02:10] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:12] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:12] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:18] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: f - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:18] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fr - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fra - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: fran - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: franc - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:19] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: franci - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:20] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: francie - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:20] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: franciel - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:28] RELATÓRIO - Tipo: Bloquear Cliente - Período: Código: 106255, Status alterado para: Bloqueado - Usuário: FRANCISLAINE
+[25/11/2025, 15:02:53] RELATÓRIO - Tipo: Títulos - Período: 2025-11-10 a 2025-11-18 - Usuário: FRANCISLAINE
+[25/11/2025, 15:03:12] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[25/11/2025, 15:03:21] DETALHES - Cliente: ROSEMEIRE RUFINO - Período: 19/11/2025 a 18/12/2025 - Usuário: FRANCISLAINE
+[25/11/2025, 15:03:26] RELATÓRIO - Tipo: Títulos - Período: 2025-11-19 a 2025-12-18 - Usuário: FRANCISLAINE
+[25/11/2025, 15:03:29] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[25/11/2025, 15:03:29] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[25/11/2025, 16:21:36] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[25/11/2025, 16:21:54] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-25 - Usuário: MARI PREVIATO
+[25/11/2025, 16:45:32] LOGIN - Sucesso - Usuário: MARI PREVIATO
+[25/11/2025, 16:45:34] RELATÓRIO - Tipo: Títulos - Período: 2025-11-18 a 2025-11-25 - Usuário: MARI PREVIATO
+[25/11/2025, 16:49:26] LOGIN - Sucesso - Usuário: FRANCISLAINE
+[25/11/2025, 16:49:28] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[25/11/2025, 16:49:28] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: FRANCISLAINE
+[25/11/2025, 16:49:33] RELATÓRIO - Tipo: Busca de Clientes - Período: Busca: DOUGLAS BERALDO PONTES - Usuário: FRANCISLAINE
+[25/11/2025, 16:54:27] LOGIN - Sucesso - Usuário: UNIMED
+[25/11/2025, 16:54:30] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[25/11/2025, 16:54:34] DETALHES - Cliente: DOUGLAS BERALDO PONTES - Período: 01/01/2025 a 01/12/2025 - Usuário: UNIMED
+[25/11/2025, 16:55:37] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: FRANCISLAINE
+[25/11/2025, 16:56:04] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
+[25/11/2025, 16:58:29] RELATÓRIO - Tipo: Consulta de Clientes - Período:  - Usuário: UNIMED
+[25/11/2025, 16:58:29] RELATÓRIO - Tipo: Acesso - Clientes - Período: Página de consulta de clientes acessada - Usuário: UNIMED
+[25/11/2025, 16:58:34] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 1 → 2 - Usuário: UNIMED
+[25/11/2025, 16:58:37] RELATÓRIO - Tipo: Navegação - Clientes - Período: Próxima página: 2 → 3 - Usuário: UNIMED
+[25/11/2025, 16:58:39] RELATÓRIO - Tipo: Busca de Clientes - Período: Status: Bloqueado - Usuário: UNIMED
+[25/11/2025, 16:58:43] RELATÓRIO - Tipo: Títulos - Período: 2025-01-01 a 2025-12-01 - Usuário: UNIMED
