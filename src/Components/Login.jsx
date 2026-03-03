@@ -22,9 +22,28 @@ const Login = () => {
       if (resposta.status === 200) {
         const token = resposta.data.Token;
         const expiration = resposta.data.Expiration;
+        let conveniosRaw = resposta.data.convenios || [];
+
+        // Normalizar convenios para usar chaves minúsculas internamente se preferir, 
+        // ou garantir que as chaves do backend sejam respeitadas.
+        // Vamos normalizar para 'codigo' e 'nome' para manter compatibilidade com o que já foi feito.
+        const convenios = conveniosRaw.map(c => ({
+          codigo: c.Codigo !== undefined ? c.Codigo : c.codigo,
+          nome: c.Nome !== undefined ? c.Nome : c.nome
+        }));
+
         if (token) {
           localStorage.setItem('token', token);
           localStorage.setItem('usuario', login);
+          localStorage.setItem('convenios', JSON.stringify(convenios));
+
+          // Se tiver apenas 1 convênio, já deixa ele selecionado
+          if (convenios.length === 1) {
+            localStorage.setItem('convenio_selecionado', JSON.stringify(convenios[0]));
+          } else if (convenios.length > 1) {
+            localStorage.removeItem('convenio_selecionado');
+          }
+
           if (expiration) {
             localStorage.setItem('expiration', expiration);
           }

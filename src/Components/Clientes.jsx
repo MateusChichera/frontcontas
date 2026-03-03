@@ -7,7 +7,7 @@ const Clientes = () => {
     const [clientes, setClientes] = useState([]);
     const [loading, setLoading] = useState(false);
     const [searchNome, setSearchNome] = useState('');
-    const [filtroStatus, setFiltroStatus] = useState(''); // '' = todos, '1' = normal, '2' = bloqueado
+    const [filtroStatus, setFiltroStatus] = useState(''); // '' = todos, 0 = Liberado Padrão, 1 = s/ Desc, 2 = Bloqueado
     const [paginaAtual, setPaginaAtual] = useState(1);
     const [quantidadeTotal, setQuantidadeTotal] = useState(0);
     const [atualizando, setAtualizando] = useState(null); // Para indicar qual cliente está sendo atualizado
@@ -23,53 +23,62 @@ const Clientes = () => {
             const searchTerm = searchNome.trim();
             // Verificar se é numérico (CPF ou código)
             const isNumeric = /^\d+$/.test(searchTerm);
-            
+
             filtrados = filtrados.filter((c) => {
                 // Buscar por nome (sempre)
-                const matchesNome = c.Nome?.toLowerCase().includes(searchTerm.toLowerCase());
-                
+                const nomeClie = c.nome || c.Nome || '';
+                const matchesNome = nomeClie.toLowerCase().includes(searchTerm.toLowerCase());
+
                 if (isNumeric) {
-                    // Se for numérico, buscar também por CPF e código
-                    const matchesCpf = c.Cpf?.includes(searchTerm);
-                    const matchesCodigo = c.Codigo?.toString().includes(searchTerm);
+                    const matchesCpf = (c.cpf || c.Cpf || '').includes(searchTerm);
+                    const matchesCodigo = (c.codigo || c.Codigo || '').toString().includes(searchTerm);
                     return matchesNome || matchesCpf || matchesCodigo;
                 } else {
-                    // Se não for numérico, buscar apenas por nome
                     return matchesNome;
                 }
             });
         }
 
-        // Filtro por status
         if (filtroStatus !== '') {
-            filtrados = filtrados.filter((c) => c.Status === parseInt(filtroStatus));
+            filtrados = filtrados.filter((c) => {
+                const status = c.status !== undefined ? c.status : c.Status;
+                return status === parseInt(filtroStatus);
+            });
         }
 
         return filtrados;
     }, [clientes, searchNome, filtroStatus]);
 
-    // Calcular total de páginas
     const totalPaginas = Math.ceil(clientesFiltrados.length / itensPorPagina);
 
-    // Obter clientes da página atual
     const clientesPagina = useMemo(() => {
         const inicio = (paginaAtual - 1) * itensPorPagina;
         const fim = inicio + itensPorPagina;
         return clientesFiltrados.slice(inicio, fim);
-    }, [clientesFiltrados, paginaAtual, itensPorPagina]);
+    }, [clientesFiltrados, paginaAtual]);
+    // Pega o convênio selecionado
+    const getConvenio = () => JSON.parse(localStorage.getItem('convenio_selecionado') || 'null');
 
     // Buscar clientes da API
     const buscarClientes = async () => {
+        const convenio = getConvenio();
+        if (!convenio) {
+            setClientes([]);
+            setQuantidadeTotal(0);
+            return;
+        }
+
         setLoading(true);
         const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-        
+
         try {
-            logger.logRelatorio(usuario, 'Consulta de Clientes', '');
-            const response = await api.get('/consulta/clientes');
-            
-            if (response.data && response.data.Clientes) {
-                setClientes(response.data.Clientes);
-                setQuantidadeTotal(response.data.QuantidadeClientes || response.data.Clientes.length);
+            logger.logRelatorio(usuario, 'Consulta de Funcionários', `Convênio: ${convenio.nome}`);
+            const response = await api.get(`/consulta/clientes?convenio=${convenio.codigo}`);
+
+            const data = response.data.clientes || response.data.Clientes || [];
+            if (data) {
+                setClientes(data);
+                setQuantidadeTotal(response.data.quantidadeClientes || response.data.QuantidadeClientes || data.length);
             } else {
                 setClientes([]);
                 setQuantidadeTotal(0);
@@ -78,82 +87,93 @@ const Clientes = () => {
             console.error('Erro ao buscar clientes:', error);
             setClientes([]);
             setQuantidadeTotal(0);
-            logger.logErro('Busca de Clientes', error.message || 'Erro desconhecido');
-            alert('Erro ao carregar clientes. Tente novamente.');
+            logger.logErro('Busca de Funcionários', error.message || 'Erro desconhecido');
+            alert('Erro ao carregar funcionários. Tente novamente.');
         } finally {
             setLoading(false);
         }
     };
 
     // Atualizar status do cliente
-    const atualizarStatusCliente = async (codigo, novoStatus) => {
+    const atualizarStatusCliente = async (clienteObj, novoStatus) => {
+        const convenio = getConvenio();
+        if (!convenio) return;
+
+        const codigo = clienteObj.codigo || clienteObj.Codigo;
         setAtualizando(codigo);
         const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-        
+
         try {
-            await api.post('/atualizar/cliente', {
-                Codigo: codigo,
-                Status: novoStatus
+            // Nova rota exige convenio na query e body específico
+            await api.post(`/atualizar/cliente?convenio=${convenio.codigo}`, {
+                codigo: codigo,
+                nome: clienteObj.nome || clienteObj.Nome,
+                cpf: clienteObj.cpf || clienteObj.Cpf,
+                status: novoStatus
             });
 
             // Atualizar o status localmente
             setClientes((prev) =>
-                prev.map((c) =>
-                    c.Codigo === codigo ? { ...c, Status: novoStatus } : c
-                )
+                prev.map((c) => {
+                    const cCod = c.codigo || c.Codigo;
+                    return cCod === codigo ? { ...c, status: novoStatus, Status: novoStatus } : c;
+                })
             );
 
             logger.logRelatorio(
                 usuario,
-                novoStatus === 2 ? 'Bloquear Cliente' : 'Desbloquear Cliente',
-                `Código: ${codigo}, Status alterado para: ${novoStatus === 2 ? 'Bloqueado' : 'Ativo'}`
+                novoStatus === 2 ? 'Bloquear Funcionário' : 'Liberar Funcionário',
+                `Código: ${codigo}, Status alterado para: ${novoStatus}`
             );
         } catch (error) {
             console.error('Erro ao atualizar cliente:', error);
-            logger.logErro('Atualização de Cliente', error.message || 'Erro desconhecido');
-            alert('Erro ao atualizar status do cliente. Tente novamente.');
+            logger.logErro('Atualização de Funcionário', error.message || 'Erro desconhecido');
+            alert('Erro ao atualizar status. Tente novamente.');
         } finally {
             setAtualizando(null);
         }
     };
 
-    // Buscar clientes ao montar o componente
+    // Buscar clientes ao montar o componente ou mudar convênio
     useEffect(() => {
         buscarClientes();
-        const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-        logger.logRelatorio(usuario, 'Acesso - Clientes', 'Página de consulta de clientes acessada');
+
+        const handleConvenioChange = () => {
+            buscarClientes();
+        };
+
+        window.addEventListener('convenioChanged', handleConvenioChange);
+        return () => window.removeEventListener('convenioChanged', handleConvenioChange);
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-    // Resetar para primeira página quando filtros mudarem e logar busca
     useEffect(() => {
         setPaginaAtual(1);
         const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-        
-        // Logar quando houver busca ou filtro
+
         if (searchNome.trim() || filtroStatus !== '') {
             const filtroDetalhes = [];
             if (searchNome.trim()) {
                 filtroDetalhes.push(`Busca: ${searchNome.trim()}`);
             }
             if (filtroStatus !== '') {
-                const statusLabel = filtroStatus === '0' ? 'Ativo' : filtroStatus === '2' ? 'Bloqueado' : filtroStatus;
+                const statusLabel = filtroStatus === '0' ? 'Liberado Padrão' : filtroStatus === '1' ? 'Liberado s/ Desc' : 'Bloqueado';
                 filtroDetalhes.push(`Status: ${statusLabel}`);
             }
-            
+
             if (filtroDetalhes.length > 0) {
                 logger.logRelatorio(usuario, 'Busca de Clientes', filtroDetalhes.join(', '));
             }
         }
-    }, [searchNome, filtroStatus]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [searchNome, filtroStatus]);
 
     const getStatusLabel = (status) => {
         switch (status) {
             case 0:
-                return 'ATIVO';
+                return 'LIBERADO - PADRÃO';
             case 1:
-                return 'Consumidor';
+                return 'LIBERADO - S/ DESC';
             case 2:
-                return 'Bloqueado';
+                return 'BLOQUEADO';
             default:
                 return 'Desconhecido';
         }
@@ -164,7 +184,7 @@ const Clientes = () => {
             case 0:
                 return 'status-ativo';
             case 1:
-                return 'status-consumidor';
+                return 'status-sem-desconto';
             case 2:
                 return 'status-bloqueado';
             default:
@@ -174,7 +194,7 @@ const Clientes = () => {
 
     return (
         <div className="clientes-container">
-            <h1 className="clientes-title">Consulta de Clientes</h1>
+            <h1 className="clientes-title">Consulta de Funcionários</h1>
 
             <div className="filters-section">
                 <div className="input-group">
@@ -197,8 +217,9 @@ const Clientes = () => {
                         onChange={(e) => setFiltroStatus(e.target.value)}
                         className="filter-select"
                     >
-                        <option value="">Selecione...</option>
-                        <option value="0">Ativo</option>
+                        <option value="">Todos</option>
+                        <option value="0">Liberado Padrão</option>
+                        <option value="1">Liberado s/ Desc</option>
                         <option value="2">Bloqueado</option>
                     </select>
                 </div>
@@ -208,16 +229,16 @@ const Clientes = () => {
                 </button>
             </div>
 
-            {loading && <p className="loading-message">Carregando clientes...</p>}
+            {loading && <p className="loading-message">Carregando...</p>}
 
             {!loading && clientes.length === 0 ? (
-                <p className="no-data-message">Nenhum cliente encontrado.</p>
+                <p className="no-data-message">Nenhum funcionário encontrado.</p>
             ) : (
                 <>
                     <div className="info-section">
                         <p>
-                            Total de clientes: <strong>{quantidadeTotal}</strong> | 
-                            Exibindo: <strong>{clientesFiltrados.length}</strong> após filtros
+                            Total: <strong>{quantidadeTotal}</strong> |
+                            Filtrados: <strong>{clientesFiltrados.length}</strong>
                         </p>
                     </div>
 
@@ -233,49 +254,56 @@ const Clientes = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {clientesPagina.map((cliente) => (
-                                    <tr key={cliente.Codigo}>
-                                        <td>{cliente.Codigo}</td>
-                                        <td>{cliente.Nome || '-'}</td>
-                                        <td>{cliente.Cpf || '-'}</td>
-                                        <td>
-                                            <span className={`status-badge ${getStatusClass(cliente.Status)}`}>
-                                                {getStatusLabel(cliente.Status)}
-                                            </span>
-                                        </td>
-                                        <td className="hide-print">
-                                            {cliente.Status === 2 ? (
-                                                <button
-                                                    className="action-button action-desbloquear"
-                                                    onClick={() => atualizarStatusCliente(cliente.Codigo, 0)}
-                                                    disabled={atualizando === cliente.Codigo}
-                                                    title="Desbloquear cliente"
-                                                >
-                                                    {atualizando === cliente.Codigo ? (
-                                                        <i className="fas fa-spinner fa-spin"></i>
-                                                    ) : (
-                                                        <i className="fas fa-unlock"></i>
-                                                    )}{' '}
-                                                    Desbloquear
-                                                </button>
-                                            ) : (
-                                                <button
-                                                    className="action-button action-bloquear"
-                                                    onClick={() => atualizarStatusCliente(cliente.Codigo, 2)}
-                                                    disabled={atualizando === cliente.Codigo}
-                                                    title="Bloquear cliente"
-                                                >
-                                                    {atualizando === cliente.Codigo ? (
-                                                        <i className="fas fa-spinner fa-spin"></i>
-                                                    ) : (
-                                                        <i className="fas fa-lock"></i>
-                                                    )}{' '}
-                                                    Bloquear
-                                                </button>
-                                            )}
-                                        </td>
-                                    </tr>
-                                ))}
+                                {clientesPagina.map((cliente) => {
+                                    const cCod = cliente.codigo || cliente.Codigo;
+                                    const cNome = cliente.nome || cliente.Nome || '-';
+                                    const cCpf = cliente.cpf || cliente.Cpf || '-';
+                                    const cStatus = cliente.status !== undefined ? cliente.status : cliente.Status;
+
+                                    return (
+                                        <tr key={cCod}>
+                                            <td>{cCod}</td>
+                                            <td>{cNome}</td>
+                                            <td>{cCpf}</td>
+                                            <td>
+                                                <span className={`status-badge ${getStatusClass(cStatus)}`}>
+                                                    {getStatusLabel(cStatus)}
+                                                </span>
+                                            </td>
+                                            <td className="hide-print">
+                                                {cStatus === 2 ? (
+                                                    <button
+                                                        className="action-button action-desbloquear"
+                                                        onClick={() => atualizarStatusCliente(cliente, 0)}
+                                                        disabled={atualizando === cCod}
+                                                        title="Liberar"
+                                                    >
+                                                        {atualizando === cCod ? (
+                                                            <i className="fas fa-spinner fa-spin"></i>
+                                                        ) : (
+                                                            <i className="fas fa-check"></i>
+                                                        )}{' '}
+                                                        Liberar
+                                                    </button>
+                                                ) : (
+                                                    <button
+                                                        className="action-button action-bloquear"
+                                                        onClick={() => atualizarStatusCliente(cliente, 2)}
+                                                        disabled={atualizando === cCod}
+                                                        title="Bloquear"
+                                                    >
+                                                        {atualizando === cCod ? (
+                                                            <i className="fas fa-spinner fa-spin"></i>
+                                                        ) : (
+                                                            <i className="fas fa-lock"></i>
+                                                        )}{' '}
+                                                        Bloquear
+                                                    </button>
+                                                )}
+                                            </td>
+                                        </tr>
+                                    );
+                                })}
                             </tbody>
                         </table>
                     </div>
@@ -285,11 +313,8 @@ const Clientes = () => {
                             <button
                                 className="pagination-button"
                                 onClick={() => {
-                                    const paginaAnterior = paginaAtual;
                                     const novaPagina = Math.max(1, paginaAtual - 1);
                                     setPaginaAtual(novaPagina);
-                                    const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-                                    logger.logRelatorio(usuario, 'Navegação - Clientes', `Página anterior: ${paginaAnterior} → ${novaPagina}`);
                                 }}
                                 disabled={paginaAtual === 1}
                             >
@@ -301,11 +326,8 @@ const Clientes = () => {
                             <button
                                 className="pagination-button"
                                 onClick={() => {
-                                    const paginaAnterior = paginaAtual;
                                     const novaPagina = Math.min(totalPaginas, paginaAtual + 1);
                                     setPaginaAtual(novaPagina);
-                                    const usuario = localStorage.getItem('usuario') || 'Desconhecido';
-                                    logger.logRelatorio(usuario, 'Navegação - Clientes', `Próxima página: ${paginaAnterior} → ${novaPagina}`);
                                 }}
                                 disabled={paginaAtual === totalPaginas}
                             >

@@ -4,78 +4,106 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 2000;
+    animation: fadeIn 0.2s ease-out;
 }
 
 .modal-content {
     background: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
+    padding: 32px;
+    border-radius: var(--radius-lg);
     max-height: 90vh;
     overflow-y: auto;
-    width: 95vw; 
-    max-width: 900px; 
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    width: 95vw;
+    max-width: 1000px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+    color: var(--text-main);
+    animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
 
 .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
 }
 
 .modal-header h2 {
     margin: 0;
-    color: #0056b3;
-    font-size: 1.8em;
+    color: var(--text-main);
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .close-button {
-    background: none;
+    background: var(--bg-light);
     border: none;
-    font-size: 2em;
-    color: #888;
+    font-size: 24px;
+    color: var(--text-muted);
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: color 0.2s ease, background-color 0.2s ease;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--transition);
 }
 
 .close-button:hover {
-    color: #333;
-    background-color: #f0f0f0;
+    color: #e53e3e;
+    background-color: #fff5f5;
 }
 
 .filter-controls {
     display: flex;
-    gap: 15px;
-    margin-bottom: 25px;
+    gap: 16px;
+    margin-bottom: 24px;
     flex-wrap: wrap;
-    align-items: center; /* alinha verticalmente */
+    align-items: center;
 }
 
-.filter-input,
+.filter-input-modal,
 .filter-select {
     flex: 1;
-    padding: 7px 15px; /* padding uniforme */
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1em;
-    color: #555;
-    min-width: 180px;
-    height: 36px; /* altura consistente */
-    box-sizing: border-box;
-    line-height: 20px;
+    padding: 10px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    color: var(--text-main);
+    min-width: 200px;
+    height: 42px;
+    transition: var(--transition);
 }
 
 /* garante mesma altura para select especificamente em alguns navegadores */
@@ -86,26 +114,27 @@
     appearance: none;
 }
 
-.filter-input:focus,
+.filter-input-modal:focus,
 .filter-select:focus {
-    border-color: #007bff;
+    border-color: var(--primary-color);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
 }
 
 .details-button {
-    padding: 8px 15px;
-    background-color: #28a745;
+    padding: 8px 16px;
+    background-color: #38a169;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
     cursor: pointer;
-    font-size: 0.9em;
-    transition: background-color 0.2s ease;
+    font-size: 14px;
+    font-weight: 600;
+    transition: var(--transition);
 }
 
 .details-button:hover {
-    background-color: #218838;
+    background-color: #2f855a;
 }
 
 .loading-message-modal,
@@ -127,37 +156,38 @@
 }
 
 .venda-card {
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 25px;
-    background-color: #fefefe;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: var(--card-shadow);
 }
 
 .venda-card h3 {
     margin-top: 0;
-    margin-bottom: 15px;
-    color: #34495e;
-    font-size: 1.3em;
-    border-bottom: 1px dashed #eee;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: var(--text-main);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 16px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .venda-card h3 span {
-    font-weight: normal;
-    color: #666;
+    font-weight: 500;
+    color: var(--text-muted);
+    font-size: 14px;
 }
 
 .total-value {
-    color: #007bff;
-    font-weight: bold;
-    font-size: 1.2em;
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
 .items-table {
@@ -168,17 +198,19 @@
 
 .items-table th,
 .items-table td {
-    padding: 10px 12px;
-    border: 1px solid #f0f0f0;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border-color);
     text-align: left;
-    font-size: 0.9em;
+    font-size: 13px;
 }
 
 .items-table th {
-    background-color: #f7f7f7;
+    background-color: #fafbfc;
     font-weight: 600;
-    color: #666;
+    color: var(--text-muted);
     text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
 }
 
 .items-table tbody tr:nth-child(even) {
@@ -186,21 +218,26 @@
 }
 
 .items-table tbody tr:hover {
-    background-color: #f0f8ff;
+    background-color: #f8fafc;
 }
 
 .venda-card-footer {
     text-align: right;
-    font-weight: 600;
-    margin-top: 10px;
+    font-weight: 700;
+    margin-top: 16px;
+    font-size: 15px;
+    color: var(--text-main);
+    padding-top: 12px;
+    border-top: 1px dashed var(--border-color);
 }
 
 .print-button-modal {
     background: none;
     border: none;
-    font-size: 1.4em;
+    font-size: 1.5rem;
     cursor: pointer;
-    color: #007bff;
+    color: var(--primary-color);
+    transition: var(--transition);
 }
 
 .print-button-modal:hover {
@@ -209,29 +246,43 @@
 
 @media (max-width: 768px) {
     .modal-content {
-        width: 98vw;
-        padding: 15px;
+        padding: 20px;
     }
+
     .modal-header h2 {
-        font-size: 1.5em;
+        font-size: 1.3rem;
     }
+
     .filter-controls {
         flex-direction: column;
     }
+
     .filter-input,
     .filter-select {
         min-width: unset;
         width: 100%;
     }
-    .items-table, .items-table thead, .items-table tbody, .items-table th, .items-table td, .items-table tr {
+
+    .items-table,
+    .items-table thead,
+    .items-table tbody,
+    .items-table th,
+    .items-table td,
+    .items-table tr {
         display: block;
     }
+
     .items-table thead tr {
         position: absolute;
         top: -9999px;
         left: -9999px;
     }
-    .items-table tr { border: 1px solid #ddd; margin-bottom: 10px; }
+
+    .items-table tr {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
     .items-table td {
         border: none;
         border-bottom: 1px solid #eee;
@@ -239,6 +290,7 @@
         padding-left: 50%;
         text-align: right;
     }
+
     .items-table td:before {
         position: absolute;
         top: 6px;
@@ -249,10 +301,28 @@
         text-align: left;
         font-weight: bold;
     }
-    .items-table td:nth-of-type(1):before { content: "Item"; }
-    .items-table td:nth-of-type(2):before { content: "EAN"; }
-    .items-table td:nth-of-type(3):before { content: "Descrição"; }
-    .items-table td:nth-of-type(4):before { content: "Quantidade"; }
-    .items-table td:nth-of-type(5):before { content: "Unitário"; }
-    .items-table td:nth-of-type(6):before { content: "Total"; }
+
+    .items-table td:nth-of-type(1):before {
+        content: "Item";
+    }
+
+    .items-table td:nth-of-type(2):before {
+        content: "EAN";
+    }
+
+    .items-table td:nth-of-type(3):before {
+        content: "Descrição";
+    }
+
+    .items-table td:nth-of-type(4):before {
+        content: "Quantidade";
+    }
+
+    .items-table td:nth-of-type(5):before {
+        content: "Unitário";
+    }
+
+    .items-table td:nth-of-type(6):before {
+        content: "Total";
+    }
 }

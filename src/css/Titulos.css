@@ -1,33 +1,27 @@
 .titulos-container {
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0;
 }
 
 .titulos-title {
-    text-align: center;
-    color: #0056b3;
-    margin-bottom: 30px;
-    font-size: 2.2em;
-    font-weight: 600;
+    text-align: left;
+    color: var(--text-main);
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .filters-section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #eaf3ff;
-    border-radius: 8px;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--card-shadow);
 }
 
 .input-group {
@@ -37,98 +31,104 @@
 }
 
 .input-group label {
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: #004085;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .date-input {
     padding: 10px 12px;
-    border: 1px solid #a8d0ed;
-    border-radius: 5px;
-    font-size: 1em;
-    color: #333;
-    transition: border-color 0.3s ease;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    color: var(--text-main);
+    background-color: #fff;
+    transition: var(--transition);
+    min-width: 160px;
 }
 
 .date-input:focus {
-    border-color: #007bff;
+    border-color: var(--primary-color);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
 }
 
 .search-button {
-    padding: 10px 25px;
-    background-color: #007bff;
+    padding: 11px 24px;
+    background-color: var(--primary-color);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 14px;
     font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: var(--transition);
+    height: 41px;
 }
 
 .search-button:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
+    background-color: var(--primary-hover);
 }
 
 .search-button:disabled {
-    background-color: #cccccc;
+    background-color: var(--text-muted);
+    opacity: 0.4;
     cursor: not-allowed;
-    transform: none;
 }
 
 .loading-message,
 .no-data-message {
     text-align: center;
     margin-top: 20px;
-    font-size: 1.1em;
-    color: #666;
-    padding: 15px;
-    background-color: #fff3cd;
-    border: 1px solid #ffeeba;
-    border-radius: 5px;
+    font-size: 14px;
+    color: var(--text-main);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
 }
 
 .no-data-message {
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-    color: #721c24;
+    background-color: #fff5f5;
+    border-color: #fed7d7;
+    color: #c53030;
 }
 
 .table-container {
-    overflow-x: auto; 
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--card-shadow);
 }
 
 .titulos-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 0;
 }
 
 .titulos-table th,
 .titulos-table td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
     text-align: left;
+    font-size: 14px;
 }
 
 .titulos-table th {
-    background-color: #f2f2f2;
+    background-color: #fafbfc;
     font-weight: 600;
-    color: #555;
+    color: var(--text-muted);
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 11px;
+    letter-spacing: 0.5px;
 }
 
 .titulos-table tbody tr:hover {
-    background-color: #e9f7ff;
+    background-color: #f8fafc;
 }
 
 .titulos-table tbody tr:last-child td {
@@ -136,52 +136,58 @@
 }
 
 .filter-input {
-    width: 50%;
-    max-width: 300px;
-    padding: 10px 15px;
-    margin: 10px 0;
-    border: 1px solid #a8d0ed;
-    border-radius: 5px;
-    font-size: 1em;
+    width: 100%;
+    max-width: 320px;
+    padding: 10px 16px;
+    margin: 16px 20px 0;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    transition: var(--transition);
+}
+
+.filter-input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
 }
 
 .footer-buttons {
     display: flex;
     justify-content: flex-end;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 12px;
+    margin-top: 20px;
 }
 
 .print-button,
 .export-button {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: var(--transition);
+    background: #ffffff;
+    color: var(--text-main);
 }
 
-.print-button {
-    background-color: #007bff;
-    color: #fff;
-}
 .print-button:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
+    background-color: var(--bg-light);
+    border-color: var(--primary-color);
 }
 
 .export-button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #2f855a;
+    color: #ffffff;
+    border-color: #2f855a;
 }
+
 .export-button:hover {
-    background-color: #1e7e34;
-    transform: translateY(-2px);
+    background-color: #276749;
 }
 
 @media print {
@@ -192,6 +198,41 @@
 
 /* Estilo para rodapé da tabela */
 .titulos-table tfoot td {
-    background-color: #f2f2f2;
+    background-color: #fafbfc;
+    font-weight: 700;
+    color: var(--text-main);
+    border-top: 2px solid var(--border-color);
+}
+
+/* Estilo para Abas (Tabs) - Agora mais sutis */
+.tabs-selection {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tab-button {
+    padding: 12px 24px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--text-muted);
     font-weight: 600;
+    cursor: pointer;
+    border-radius: 0;
+    transition: var(--transition);
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+}
+
+.tab-button.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.tab-button:hover:not(.active) {
+    color: var(--text-main);
 }
